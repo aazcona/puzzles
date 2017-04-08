@@ -341,7 +341,7 @@ class FGMembersite
 
         $host = $_SERVER['SERVER_NAME'];
 
-        $from ="nobody@$host";
+        $from ="admin@$host";
         return $from;
     } 
     
