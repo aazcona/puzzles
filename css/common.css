@@ -1,7 +1,43 @@
 body
 {
 	background-color: #D8D8D8;
-	font-size: 38px;
+	font-size: 18px;
+}
+
+.main-container
+{
+	width: 70%;
+	left: 15%;
+	position: relative;
+	height: 500px;
+}
+
+ul
+{
+	list-style-type:decimal;
+	margin-left: 4%;
+}
+
+ul a
+{
+	text-decoration:none;
+}
+
+ul a:link
+{
+	color:#DF0101;
+	text-decoration:underline;
+}
+
+ul a:hover
+{
+	color:#000000;
+}
+
+ul a:visited
+{
+	color:#00FF00;
+	text-decoration:none;
 }
 
 audio
