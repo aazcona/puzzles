@@ -1,0 +1,39 @@
+.city-selection
+{
+	width: 70%;
+	left: 15%;
+	position: relative;
+}
+
+.cities
+{
+	list-style-type:decimal;
+	margin-left: 4%;
+}
+
+.cities a
+{
+	text-decoration:none;
+}
+
+.cities a:link
+{
+	color:#DF0101;
+	text-decoration:underline;
+}
+
+.cities a:hover
+{
+	color:#000000;
+}
+
+.cities a:visited
+{
+	color:#00FF00;
+	text-decoration:none;
+}
+
+li img
+{
+	margin-bottom: -8px;
+} 

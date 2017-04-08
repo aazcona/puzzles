@@ -1,0 +1,9 @@
+.home
+{
+	background-image: url("../images/intro.png");
+	background-color: #D8D8D8;
+	background-size: 1000px 700px;
+	width: 1000px;
+	height: 700px;
+	display:block;
+}

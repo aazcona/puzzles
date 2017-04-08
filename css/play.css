@@ -1,0 +1,85 @@
+.play
+{
+	background-image: url("../images/intro.png");
+	background-color: #D8D8D8;
+	background-size: 800px 500px;
+	background-repeat: no-repeat;
+	background-position: 800px;
+	width: 100%;
+	height: 500px;
+}
+
+.actions
+{
+	width: 70%;
+	height: 500px;
+	left: 15%;
+	position: relative;
+	display: none;
+	text-align: center;
+}
+
+.actions img
+{
+	margin-left:2%;
+}
+
+.actions li
+{
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 55px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 280;
+	line-height: 75px;
+	list-style-type:none;
+
+}
+
+.actions ul
+{
+	width:45%;
+	display:inline-block;
+	padding-left:0px;
+}
+
+.actions-left 
+{
+	text-align: left;
+}
+
+.actions-right 
+{
+	text-align: right;
+}
+
+.play-option a:link, .play-option a:hover, .play-option a:visited, .play-option a:active
+{
+	color:#40FF00;
+}
+
+.facebook-option a:link, .facebook-option a:hover, .facebook-option a:visited, .facebook-option a:active
+{
+	color:#0101DF;
+}
+
+.twitter-option a:link, .twitter-option a:hover, .twitter-option a:visited, .twitter-option a:active
+{
+	color:#2ECCFA;
+}
+
+.gmail-option
+{
+	font-size: 28px;
+	line-height: 100px;
+}
+
+.youtube-option a:link, .youtube-option a:hover, .youtube-option a:visited, .youtube-option a:active
+{
+	color: red;
+}
+
+.google-option a:link, .google-option a:hover, .google-option a:visited, .google-option a:active
+{
+	color:brown;
+}

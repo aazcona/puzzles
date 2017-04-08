@@ -1,0 +1,31 @@
+#points {
+	margin: auto;
+	position: absolute;
+	top: 30%;
+	left: 25%;
+}
+
+#points img {
+	width:550px;
+}
+
+#points p {
+	font-size: 50px;
+	color: white;
+	font-family: ‘Lucida Console’, Monaco, monospace;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-align: center;
+}
+
+.puzzle 
+{
+	width: 70%;
+	left: 15%;
+	position: relative;
+}
+
+canvas
+{
+	display: block;
+	margin: 0 auto;
+}

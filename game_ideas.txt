@@ -1,0 +1,49 @@
+The construction of the game in English:
+
+First Question: How is the construction of the game?:
+
+1- In the menu of the game you can:
+
+1- See the credits.
+2- The option to start playing and go to the level selection.
+3- Configurate the music, the sound... 
+4- See the Facebook and the Twitter of the creators of the game. 
+
+2- In the level selection you can:
+
+1- Go back to the menu.
+2- Select the episode.
+
+3- In the episodes you can:
+
+1- Select the puzzle. 
+
+Second Question: How do we do for divide the episodes?
+
+- We divide the episodes by the difficulty and the number of the pieces of the puzzle in the level.
+
+Third Question: What do we put in the new updates?
+
+- Surely we put a creator of puzzles for playing levels of the world, we correct some bugs, we put new options and more objects in the level editor and new levels. Note: In the editor you can put photos of the places of the city but with a condition: The photo has to be of a place which is allowed in the game. 
+
+Fourth Question: How we can we see the background?
+
+- In different colours: You can put the colours would you like more in the game. And in the updates, we put new colours because in the beggining of the game they not all the colours of the world.
+
+Fifth Question: And in the birthdays of the game we do some temporal challenges?
+
+- Yes, but the update of the challenges will go out 10 days before. 
+
+Sixth Question: How many objects can we use?
+
+- First, you can divide the puzzle in: 16, 20, 25, 30, 35, 40, 45 and 50 pieces. And then, you can in more, for example, 60, 100, 150... 
+
+Seventh Question: How can we put the puzzle?
+
+- You select the photo of your gallery and divide in the pieces would you more like :)
+
+Eight Question: How can we search the made levels?
+
+- You can enter in the option "search" and then, you put the name, the difficulty and the points.the
+
+
