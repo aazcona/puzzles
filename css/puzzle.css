@@ -17,13 +17,6 @@
 	text-align: center;
 }
 
-.puzzle 
-{
-	width: 70%;
-	left: 15%;
-	position: relative;
-}
-
 canvas
 {
 	display: block;

@@ -17,15 +17,15 @@ if(!$fgmembersite->CheckLogin())
       <link rel="stylesheet" type="text/css" href="css/common.css">
 </head>
 <body>
-<div id='fg_membersite_content'>
-<h2>Home Page</h2>
-Welcome back <?= $fgmembersite->UserFullName(); ?>!
+	<div id='fg_membersite_content' class='main-container'>
+		<h2>Home Page</h2>
+		Welcome back <?= $fgmembersite->UserFullName(); ?>!
 
-<p><a href='change-pwd.php'>Change password</a></p>
+		<p><a href='change-pwd.php'>Change password</a></p>
 
-<p><a href='access-controlled.php'>A sample 'members-only' page</a></p>
-<br><br><br>
-<p><a href='logout.php'>Logout</a></p>
-</div>
+		<p><a href='access-controlled.php'>A sample 'members-only' page</a></p>
+		<br><br><br>
+		<p><a href='logout.php'>Logout</a></p>
+	</div>
 </body>
 </html>
