@@ -7,3 +7,13 @@ li img
 {
 	margin-bottom: -8px;
 } 
+
+#logged-user
+{
+	font-size: 22px;
+}
+
+.right
+{
+	float: right;
+}
