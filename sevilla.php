@@ -22,19 +22,19 @@ if(!$fgmembersite->CheckLogin())
 				<li>
 					<p>Portal del Palacio de San Telmo</p>
 					<div>
-						<p><a href="puzzle.html?name=sevilla/portal-palacio-telmo">¡Hacer el puzzle!</a></p>
+						<p><a href="puzzle.php?name=sevilla/portal-palacio-telmo">¡Hacer el puzzle!</a></p>
 					</div>
 				</li>
 				<li>
 					<p>Alcázar de Sevilla</p>
 					<div>
-						<p><a href="puzzle.html?name=sevilla/alcazar-sevilla">¡Hacer el puzzle!</a></p>
+						<p><a href="puzzle.php?name=sevilla/alcazar-sevilla">¡Hacer el puzzle!</a></p>
 					</div>
 				</li>
 				<li>
 					<p>Plaza de España</p>
 					<div>
-						<p><a href="puzzle.html?name=sevilla/plaza-españa-sevilla">¡Hacer el puzzle!</a></p>
+						<p><a href="puzzle.php?name=sevilla/plaza-españa-sevilla">¡Hacer el puzzle!</a></p>
 					</div>
 				</li>
 			</ul>

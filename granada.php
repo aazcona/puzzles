@@ -22,19 +22,19 @@ if(!$fgmembersite->CheckLogin())
 			<li>
 				<p>Iglesia de Santo Domingo</p>
 				<div>
-					<p><a href="puzzle.html?name=granada/iglesia-santo-domingo-granada">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=granada/iglesia-santo-domingo-granada">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>
 				<p>Parque de Federico García Lorca</p>
 				<div>
-					<p><a href="puzzle.html?name=granada/parque-federico-garcia-lorca-granada">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=granada/parque-federico-garcia-lorca-granada">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>
 				<p>Plaza Bib-Rambla</p>
 				<div>
-					<p><a href="puzzle.html?name=granada/plaza-bib-rambla-granada">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=granada/plaza-bib-rambla-granada">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 		</ul>

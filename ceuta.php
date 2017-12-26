@@ -22,19 +22,19 @@ if(!$fgmembersite->CheckLogin())
 			<li>
 				<p>La Casa de los Dragones</p>
 				<div>
-					<p><a href="puzzle.html?name=ceuta/casa-dragones">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=ceuta/casa-dragones">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>
 				<p>Parque Marítimo del Mediterráneo</p>
 				<div>
-					<p><a href="puzzle.html?name=ceuta/parque-maritimo">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=ceuta/parque-maritimo">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>
 				<p>Las Murallas Reales</p>
 				<div>
-					<p><a href="puzzle.html?name=ceuta/murallas-reales">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=ceuta/murallas-reales">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 		</ul>

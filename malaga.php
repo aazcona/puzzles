@@ -22,19 +22,19 @@ if(!$fgmembersite->CheckLogin())
 			<li>
 				<p>Jardín Botánico de la Concepción</p>
 				<div>
-					<p><a href="puzzle.html?name=malaga/jardin-botanico-concepcion-malaga">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=malaga/jardin-botanico-concepcion-malaga">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>
 				<p>Playa Pedregalejo</p>
 				<div>
-					<p><a href="puzzle.html?name=malaga/playa-pedregalejo-malaga">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=malaga/playa-pedregalejo-malaga">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>
 				<p>Teatro Romano</p>
 				<div>
-					<p><a href="puzzle.html?name=malaga/teatro-romano-malaga">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=malaga/teatro-romano-malaga">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 		</ul>

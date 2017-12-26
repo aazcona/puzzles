@@ -22,19 +22,19 @@ if(!$fgmembersite->CheckLogin())
 			<li>
 				<p>Faro de Melilla</p>
 				<div>
-					<p><a href="puzzle.html?name=melilla/faro-melilla">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=melilla/faro-melilla">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>
 				<p>Arquitectura de Melilla</p>
 				<div>
-					<p><a href="puzzle.html?name=melilla/arquitectura-melilla">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=melilla/arquitectura-melilla">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>
 				<p>Iglesia de la Purísima Concepción</p>
 				<div>
-					<p><a href="puzzle.html?name=melilla/iglesia-purisima-concepcion">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=melilla/iglesia-purisima-concepcion">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 		</ul>

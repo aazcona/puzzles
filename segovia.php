@@ -22,19 +22,19 @@ if(!$fgmembersite->CheckLogin())
 			<li>
 				<p>Acueducto Romano</p>
 				<div>
-					<p><a href="puzzle.html?name=segovia/acueducto-segovia">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=segovia/acueducto-segovia">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>
 				<p>Alcázar de Segovia</p>
 				<div>
-					<p><a href="puzzle.html?name=segovia/alcazar-segovia">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=segovia/alcazar-segovia">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>
 				<p>Plaza de la Artillería</p>
 				<div>
-					<p><a href="puzzle.html?name=segovia/plaza-artilleria-segovia">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=segovia/plaza-artilleria-segovia">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 		</ul>
