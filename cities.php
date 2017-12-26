@@ -1,7 +1,8 @@
 <?PHP
 require_once("./include/membersite_config.php");
 
-if(!$fgmembersite->CheckLogin())
+$logged = $fgmembersite->CheckLogin();
+if(!$logged)
 {
     //$fgmembersite->RedirectToURL("login.php");
     //exit;
@@ -18,10 +19,12 @@ if(!$fgmembersite->CheckLogin())
 	</head>
 	<body>
 		<div class="main-container">
-			<div id="logged-user">
-				<span class="left">Hello <?= $fgmembersite->UserFullName(); ?></span>
-				<span class="right"><a href='logout.php'>Logout</a></span>
-			</div>
+			<?PHP if ($logged){?>
+				<div id="logged-user">
+					<span class="left">Hello <?= $fgmembersite->UserFullName(); ?></span>
+					<span class="right"><a href='logout.php'>Logout</a></span>
+				</div>
+			<?PHP } ?>
 			<ul class="cities">
 				<li class="ceuta-option"><a href="ceuta.php">Ceuta</a></li>
 				<li class="melilla-option"><a href="melilla.php">Melilla</a></li>
