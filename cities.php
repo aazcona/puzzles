@@ -1,11 +1,11 @@
 <?PHP
 require_once("./include/membersite_config.php");
 
+
 $logged = $fgmembersite->CheckLogin();
-if(!$logged)
+if($logged)
 {
-    //$fgmembersite->RedirectToURL("login.php");
-    //exit;
+		$fgmembersite->savePoints(100,1);
 }
 
 ?>

@@ -868,6 +868,35 @@ class FGMembersite
         }        
         return true;
     }
+	
+	function savePoints($points, $level){
+		if(!$this->DBLogin())
+        {
+            $this->HandleError("Database login failed!");
+            return false;
+        }
+		
+		$insert_query = 'insert into userlevel(
+		user,
+		level,
+		points
+		)
+		values
+		(
+		"' . $username. '",
+		"' . $level . '",
+		"' . $points . '"
+		)';  
+
+ 
+		if(!mysql_query( $insert_query ,$this->connection))
+		{
+			$this->HandleDBError("Error inserting data to the table\nquery:$insert_query");
+			return false;
+		}        
+		return true;
+	}
+	
     function hashSSHA($password) {
  
         $salt = sha1(rand());

@@ -20,6 +20,8 @@ var _mouse;
 var _startTime;
 var _endTime;
 
+var _level;
+
 function init(){
 	_puzzleName = location.search.split('name=')[1];
 	_img = new Image();
@@ -258,8 +260,71 @@ function gameOver(){
 			e.preventDefault();
 		});
 	initPuzzle();
+	calculateLevel();
 	calculatePoints();
+	savePointsToDatabase();
 }
+
+function calculateLevel()
+{
+	if (_puzzleName.indexOf('ceuta') > -1)
+	{
+		if (_puzzleName.indexOf('casa-dragones'))
+			_level = 1;
+		else if (_puzzleName.indexOf('parque-maritimo'))
+			_level = 2;
+		else if (_puzzleName.indexOf('murallas-reales'))
+			_level = 3;
+	}
+	else if (_puzzleName.indexOf('melilla') > -1)
+	{
+		if (_puzzleName.indexOf('faro-melilla'))
+			_level = 4;
+		else if (_puzzleName.indexOf('arquitectura-melilla'))
+			_level = 5;
+		else if (_puzzleName.indexOf('iglesia-purisima-concepcion'))
+			_level = 6;
+		
+		
+	}
+	else if (_puzzleName.indexOf('malaga') > -1)
+	{
+		if (_puzzleName.indexOf('jardin-botanico-concepcion-malaga'))
+			_level = 7;
+		else if (_puzzleName.indexOf('playa-pedregalejo-malaga'))
+			_level = 8;
+		else if (_puzzleName.indexOf('teatro-romano-malaga'))
+			_level = 9;
+	}
+	else if (_puzzleName.indexOf('segovia') > -1)
+	{		
+		if (_puzzleName.indexOf('acueducto-segovia'))
+			_level = 10;
+		else if (_puzzleName.indexOf('alcazar-segovia'))
+			_level = 11;
+		else if (_puzzleName.indexOf('plaza-artilleria-segovia'))
+			_level = 12;
+	}
+	else if (_puzzleName.indexOf('granada') > -1)
+	{
+		if (_puzzleName.indexOf('iglesia-santo-domingo-granada'))
+			_level = 13;
+		else if (_puzzleName.indexOf('parque-federico-garcia-lorca-granada'))
+			_level = 14;
+		else if (_puzzleName.indexOf('plaza-bib-rambla-granada'))
+			_level = 15;
+	}
+	else if (_puzzleName.indexOf('sevilla') > -1)
+	{
+		if (_puzzleName.indexOf('portal-palacio-telmo'))
+			_level = 16;
+		else if (_puzzleName.indexOf('alcazar-sevilla'))
+			_level = 17;
+		else if (_puzzleName.indexOf('plaza-españa-sevilla'))
+			_level = 18;
+	}
+}
+
 
 function calculatePoints()
 {
@@ -267,6 +332,7 @@ function calculatePoints()
 	_seconds = (_endTime - _startTime)/1000;
 	_stars = 0;
 	_points = 0;
+	
 	if (_puzzleName.indexOf('ceuta') > -1)
 	{
 		if (_seconds <= 5)
@@ -277,6 +343,7 @@ function calculatePoints()
 			_stars = 1;
 		
 		_points = Math.floor(puzzle_difficulty * 1000 / _seconds);
+
 	}
 	else if (_puzzleName.indexOf('melilla') > -1)
 	{
@@ -287,7 +354,8 @@ function calculatePoints()
 		else if (_seconds <= 60)
 			_stars = 1;
 			
-		_points = Math.floor(puzzle_difficulty * 4000 / _seconds);
+		_points = Math.floor(puzzle_difficulty * 4000 / _seconds);		
+		
 	}
 	else if (_puzzleName.indexOf('malaga') > -1)
 	{
@@ -309,7 +377,8 @@ function calculatePoints()
 		else if (_seconds <= 120)
 			_stars = 1;
 			
-		_points = Math.floor(puzzle_difficulty * 19000 / _seconds);
+		_points = Math.floor(puzzle_difficulty * 19000 / _seconds);ç
+		
 	}
 	else if (_puzzleName.indexOf('granada') > -1)
 	{
@@ -321,6 +390,7 @@ function calculatePoints()
 			_stars = 1;
 			
 		_points = Math.floor(puzzle_difficulty * 17000 / _seconds);
+		
 	}
 	else if (_puzzleName.indexOf('sevilla') > -1)
 	{
@@ -330,8 +400,9 @@ function calculatePoints()
 			_stars = 2;
 		else if (_seconds <= 300)
 			_stars = 1;
-			
+		
 		_points = Math.floor(puzzle_difficulty * 50000 / _seconds);
+		
 	}
 	// Set a dark transparent background
 	_canvas = document.getElementById('canvas');
@@ -355,6 +426,11 @@ function calculatePoints()
 
 	_pointsDiv.appendChild(_starsImg);
 	_pointsDiv.appendChild(_pointsP);
+
+}
+
+function savePointsToDatabase() {
+	// do ajax call to save points
 	
 }
 
