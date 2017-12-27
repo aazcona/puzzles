@@ -431,7 +431,21 @@ function calculatePoints()
 
 function savePointsToDatabase() {
 	// do ajax call to save points
-	
+	if(window.XMLHttpRequest){
+		xmlhttp=new XMLHttpRequest();
+	}else{
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+
+	xmlhttp.onreadystatechange=function f(){
+		if (xmlhttp.readyState==4 && xmlhttp.status==200){
+			// handle correct response
+			//document.getElementById('res').innerHTML=xmlhttp.responseText;
+		}
+	}
+	xmlhttp.open("POST","savepoints.php",true);
+	xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xmlhttp.send("points="+_points+"&level="+_level);
 }
 
 function clearPointsAndStars() {

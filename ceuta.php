@@ -1,12 +1,6 @@
 <?PHP
-require_once("./include/membersite_config.php");
-
-if(!$fgmembersite->CheckLogin())
-{
-    //$fgmembersite->RedirectToURL("login.php");
-    //exit;
-}
-
+	require_once("./include/membersite_config.php");
+	$logged = $fgmembersite->CheckLogin();
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,9 +14,13 @@ if(!$fgmembersite->CheckLogin())
 	<div class="main-container">
 		<ul>
 			<li>
-				<p>La Casa de los Dragones</p>
+				<p>La Casa de los Dragones. 
+					<?PHP if ($logged){?>
+						 Points: <?= $fgmembersite->readPoints(1); ?></p>
+					<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=ceuta/casa-dragones">¡Hacer el puzzle!</a></p>
+
 				</div>
 			</li>
 			<li>

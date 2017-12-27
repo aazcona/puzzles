@@ -168,6 +168,11 @@ class FGMembersite
     {
         return isset($_SESSION['email_of_user'])?$_SESSION['email_of_user']:'';
     }
+	
+	function UserId()
+    {
+        return isset($_SESSION['id_user'])?$_SESSION['id_user']:'';
+    }
     
     function LogOut()
     {
@@ -361,8 +366,9 @@ class FGMembersite
         }          
         $username = $this->SanitizeForSQL($username);
 
-  	$nresult = mysql_query("SELECT * FROM $this->tablename WHERE username = '$username'", $this->connection) or die(mysql_error());
-        // check for result 
+		$nresult = mysql_query("SELECT * FROM $this->tablename WHERE username = '$username'", $this->connection) or die(mysql_error());
+    
+		// check for result 
         $no_of_rows = mysql_num_rows($nresult);
         if ($no_of_rows > 0) {
             $nresult = mysql_fetch_array($nresult);
@@ -374,7 +380,7 @@ class FGMembersite
         }
 
 
-        $qry = "Select name, email from $this->tablename where username='$username' and password='$hash' and confirmcode='y'";
+        $qry = "Select name, email, id_user from $this->tablename where username='$username' and password='$hash' and confirmcode='y'";
         
         $result = mysql_query($qry,$this->connection);
         
@@ -389,6 +395,7 @@ class FGMembersite
         
         $_SESSION['name_of_user']  = $row['name'];
         $_SESSION['email_of_user'] = $row['email'];
+		$_SESSION['id_user'] = $row['id_user'];
         
         return true;
     }
@@ -869,6 +876,30 @@ class FGMembersite
         return true;
     }
 	
+	function readPoints($level) {
+		if(!$this->DBLogin())
+        {
+            $this->HandleError("Database login failed!");
+            return false;
+        }          
+		
+		$iduser = $this->SanitizeForSQL($this->UserId());
+		$level = $this->SanitizeForSQL($level);
+
+        $qry = "Select points from userlevel where user='$iduser' and level='$level'";
+        
+        $result = mysql_query($qry,$this->connection);
+        
+        if(!$result || mysql_num_rows($result) <= 0)
+        {
+            return 0;
+        }
+        
+        $row = mysql_fetch_assoc($result);
+        
+        return $row['points'];
+	}
+	
 	function savePoints($points, $level){
 		if(!$this->DBLogin())
         {
@@ -876,25 +907,46 @@ class FGMembersite
             return false;
         }
 		
-		$insert_query = 'insert into userlevel(
-		user,
-		level,
-		points
-		)
-		values
-		(
-		"' . $username. '",
-		"' . $level . '",
-		"' . $points . '"
-		)';  
+		$iduser = $this->SanitizeForSQL($this->UserId());
+		$points = $this->SanitizeForSQL($points);
+		$level = $this->SanitizeForSQL($level);
+		
+		if ($this->readPoints($level) == 0) {
+		
+			$insert_query = 'insert into userlevel(
+			user,
+			level,
+			points
+			)
+			values
+			(
+			"' . $iduser. '",
+			"' . $level . '",
+			"' . $points . '"
+			)';  
 
- 
-		if(!mysql_query( $insert_query ,$this->connection))
-		{
-			$this->HandleDBError("Error inserting data to the table\nquery:$insert_query");
-			return false;
-		}        
-		return true;
+	 
+			if(!mysql_query( $insert_query ,$this->connection))
+			{
+				$this->HandleDBError("Error inserting data to the table\nquery:$insert_query");
+				return false;
+			}        
+			return true;
+		} else {
+			$update_query = 'update userlevel set
+			points = "' . $points . '"
+			where 
+			user = "' . $iduser. '" and 
+			level = "' . $level . '"';  
+
+	 
+			if(!mysql_query( $update_query ,$this->connection))
+			{
+				$this->HandleDBError("Error inserting data to the table\nquery:$insert_query");
+				return false;
+			}        
+			return true;
+		}
 	}
 	
     function hashSSHA($password) {
