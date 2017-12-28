@@ -1,12 +1,6 @@
 <?PHP
-require_once("./include/membersite_config.php");
-
-if(!$fgmembersite->CheckLogin())
-{
-    //$fgmembersite->RedirectToURL("login.php");
-    //exit;
-}
-
+	require_once("./include/membersite_config.php");
+	$logged = $fgmembersite->CheckLogin();
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,19 +14,28 @@ if(!$fgmembersite->CheckLogin())
 	<div class="main-container">
 		<ul>
 			<li>
-				<p>Jardín Botánico de la Concepción</p>
+				<p>Jardín Botánico de la Concepción.
+				<?PHP if ($logged){?>
+					Points: <?= $fgmembersite->readPoints(7); ?></p>
+				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=malaga/jardin-botanico-concepcion-malaga">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>
-				<p>Playa Pedregalejo</p>
+				<p>Playa Pedregalejo.
+				<?PHP if ($logged){?>
+					Points: <?= $fgmembersite->readPoints(8); ?></p>
+				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=malaga/playa-pedregalejo-malaga">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>
-				<p>Teatro Romano</p>
+				<p>Teatro Romano.
+				<?PHP if ($logged){?>
+					Points: <?= $fgmembersite->readPoints(9); ?></p>
+				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=malaga/teatro-romano-malaga">¡Hacer el puzzle!</a></p>
 				</div>
