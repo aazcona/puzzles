@@ -18,6 +18,8 @@ $fgmembersite->LogOut();
 	<h2>You have logged out</h2>
 	<p>
 		<a href='login.php'>Login Again</a>
+	</p>
+	<p>
 		<a href='cities.php'>Continue without logging in</a>
 	</p>
 </div>

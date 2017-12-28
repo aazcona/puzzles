@@ -911,7 +911,9 @@ class FGMembersite
 		$points = $this->SanitizeForSQL($points);
 		$level = $this->SanitizeForSQL($level);
 		
-		if ($this->readPoints($level) == 0) {
+		$databasepoints = $this->readPoints($level);
+		
+		if ($databasepoints == 0) {
 		
 			$insert_query = 'insert into userlevel(
 			user,
@@ -933,18 +935,20 @@ class FGMembersite
 			}        
 			return true;
 		} else {
-			$update_query = 'update userlevel set
-			points = "' . $points . '"
-			where 
-			user = "' . $iduser. '" and 
-			level = "' . $level . '"';  
+			if ($points > $databasepoints) {
+				$update_query = 'update userlevel set
+				points = "' . $points . '"
+				where 
+				user = "' . $iduser. '" and 
+				level = "' . $level . '"';  
 
-	 
-			if(!mysql_query( $update_query ,$this->connection))
-			{
-				$this->HandleDBError("Error inserting data to the table\nquery:$insert_query");
-				return false;
-			}        
+		 
+				if(!mysql_query( $update_query ,$this->connection))
+				{
+					$this->HandleDBError("Error inserting data to the table\nquery:$insert_query");
+					return false;
+				}     
+			}
 			return true;
 		}
 	}

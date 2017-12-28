@@ -1,3 +1,7 @@
+<?PHP
+	require_once("./include/membersite_config.php");
+	$logged = $fgmembersite->CheckLogin();
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
@@ -14,6 +18,7 @@
 					<span class="right"><a href='logout.php'>Logout</a></span>
 				</div>
 			<?PHP } ?>
+			<p> <a href="index.html"> Volver al Inicio </a>
 			<ul class="cities">
 				<li class="ceuta-option"><a href="ceuta.php">Ceuta</a></li>
 				<li class="melilla-option"><a href="melilla.php">Melilla</a></li>

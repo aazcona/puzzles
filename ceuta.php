@@ -24,13 +24,19 @@
 				</div>
 			</li>
 			<li>
-				<p>Parque Marítimo del Mediterráneo</p>
+				<p>Parque Marítimo del Mediterráneo.
+					<?PHP if ($logged){?>
+						 Points: <?= $fgmembersite->readPoints(2); ?></p>
+					<?PHP } ?></p>
 				<div>
 					<p><a href="puzzle.php?name=ceuta/parque-maritimo">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>
-				<p>Las Murallas Reales</p>
+				<p>Las Murallas Reales.
+					<?PHP if ($logged){?>
+						 Points: <?= $fgmembersite->readPoints(3); ?></p>
+					<?PHP } ?></p>
 				<div>
 					<p><a href="puzzle.php?name=ceuta/murallas-reales">¡Hacer el puzzle!</a></p>
 				</div>

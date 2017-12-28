@@ -269,58 +269,58 @@ function calculateLevel()
 {
 	if (_puzzleName.indexOf('ceuta') > -1)
 	{
-		if (_puzzleName.indexOf('casa-dragones'))
+		if (_puzzleName.indexOf('casa-dragones')> -1)
 			_level = 1;
-		else if (_puzzleName.indexOf('parque-maritimo'))
+		else if (_puzzleName.indexOf('parque-maritimo')> -1)
 			_level = 2;
-		else if (_puzzleName.indexOf('murallas-reales'))
+		else if (_puzzleName.indexOf('murallas-reales')> -1)
 			_level = 3;
 	}
 	else if (_puzzleName.indexOf('melilla') > -1)
 	{
-		if (_puzzleName.indexOf('faro-melilla'))
+		if (_puzzleName.indexOf('faro-melilla')> -1)
 			_level = 4;
-		else if (_puzzleName.indexOf('arquitectura-melilla'))
+		else if (_puzzleName.indexOf('arquitectura-melilla')> -1)
 			_level = 5;
-		else if (_puzzleName.indexOf('iglesia-purisima-concepcion'))
+		else if (_puzzleName.indexOf('iglesia-purisima-concepcion')> -1)
 			_level = 6;
 		
 		
 	}
 	else if (_puzzleName.indexOf('malaga') > -1)
 	{
-		if (_puzzleName.indexOf('jardin-botanico-concepcion-malaga'))
+		if (_puzzleName.indexOf('jardin-botanico-concepcion-malaga')> -1)
 			_level = 7;
-		else if (_puzzleName.indexOf('playa-pedregalejo-malaga'))
+		else if (_puzzleName.indexOf('playa-pedregalejo-malaga')> -1)
 			_level = 8;
-		else if (_puzzleName.indexOf('teatro-romano-malaga'))
+		else if (_puzzleName.indexOf('teatro-romano-malaga')> -1)
 			_level = 9;
 	}
 	else if (_puzzleName.indexOf('segovia') > -1)
 	{		
-		if (_puzzleName.indexOf('acueducto-segovia'))
+		if (_puzzleName.indexOf('acueducto-segovia')> -1)
 			_level = 10;
-		else if (_puzzleName.indexOf('alcazar-segovia'))
+		else if (_puzzleName.indexOf('alcazar-segovia')> -1)
 			_level = 11;
-		else if (_puzzleName.indexOf('plaza-artilleria-segovia'))
+		else if (_puzzleName.indexOf('plaza-artilleria-segovia')> -1)
 			_level = 12;
 	}
 	else if (_puzzleName.indexOf('granada') > -1)
 	{
-		if (_puzzleName.indexOf('iglesia-santo-domingo-granada'))
+		if (_puzzleName.indexOf('iglesia-santo-domingo-granada')> -1)
 			_level = 13;
-		else if (_puzzleName.indexOf('parque-federico-garcia-lorca-granada'))
+		else if (_puzzleName.indexOf('parque-federico-garcia-lorca-granada')> -1)
 			_level = 14;
-		else if (_puzzleName.indexOf('plaza-bib-rambla-granada'))
+		else if (_puzzleName.indexOf('plaza-bib-rambla-granada')> -1)
 			_level = 15;
 	}
 	else if (_puzzleName.indexOf('sevilla') > -1)
 	{
-		if (_puzzleName.indexOf('portal-palacio-telmo'))
+		if (_puzzleName.indexOf('portal-palacio-telmo')> -1)
 			_level = 16;
-		else if (_puzzleName.indexOf('alcazar-sevilla'))
+		else if (_puzzleName.indexOf('alcazar-sevilla')> -1)
 			_level = 17;
-		else if (_puzzleName.indexOf('plaza-españa-sevilla'))
+		else if (_puzzleName.indexOf('plaza-españa-sevilla')> -1)
 			_level = 18;
 	}
 }
