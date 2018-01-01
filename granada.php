@@ -11,12 +11,13 @@
 		<title>Granada</title>
 	</head>
 	<body>
+	<p><a href="cities.php"> Volver a la Pantalla de Selección </a></p>
 	<div class="main-container">
 		<ul>
 			<li>
 				<p>Iglesia de Santo Domingo.
 				<?PHP if ($logged){?>
-					Points: <?= $fgmembersite->readPoints(13); ?></p>
+					Puntos: <?= $fgmembersite->readPoints(13); ?></p>
 				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=granada/iglesia-santo-domingo-granada">¡Hacer el puzzle!</a></p>
@@ -25,7 +26,7 @@
 			<li>
 				<p>Parque de Federico García Lorca.
 				<?PHP if ($logged){?>
-					Points: <?= $fgmembersite->readPoints(14); ?></p>
+					Puntos: <?= $fgmembersite->readPoints(14); ?></p>
 				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=granada/parque-federico-garcia-lorca-granada">¡Hacer el puzzle!</a></p>
@@ -34,7 +35,7 @@
 			<li>
 				<p>Plaza Bib-Rambla.
 				<?PHP if ($logged){?>
-					Points: <?= $fgmembersite->readPoints(15); ?></p>
+					Puntos: <?= $fgmembersite->readPoints(15); ?></p>
 				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=granada/plaza-bib-rambla-granada">¡Hacer el puzzle!</a></p>

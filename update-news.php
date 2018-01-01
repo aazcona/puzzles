@@ -16,21 +16,21 @@ if(!$fgmembersite->CheckLogin())
 		<title>Tablón de Novedades y Noticias</title>
 	</head>
 	<body>
+	<p><a href="cities.php"> Volver a la Selección de Niveles </a></p>
 	<div class="main-container">
-		<p> ACTUALIZACIÓN: VERSIÓN 0.2.5 </p>
-		<p> ¡Esta es la actualización más grande hasta el momento de World Puzzles! </p>
+		<p> ACTUALIZACIÓN (BUGFIX): VERSIÓN 0.2.55 </p>
+		<p> ¡ESPECIAL 1º ANIVERSARIO!
 		<p> ¿Qué novedades trae? </p>
-		<p> - Nueva función: ¡Iniciar Sesión para guardar tus datos! </p>
-		<p> - Se ha mejorado el servidor y a partir de ahora, los datos serán guardados automáticamente en el servidor. </p>
-		<p> - Se ha añadido la opción de volver a la Pantalla de Inicio en la Pantalla de Selección. </p>
-		<p> - Se ha añadido la opción de ver tu mejor puntuación en un puzzle. </p>
-		<p> - Se ha eliminado la música para diseñar un mejor sistema en futuras actualizaciones. </p>
+		<p> - Se han arreglado los fallos en la pestaña de Créditos. </p>
+		<p> - Se ha movido el número de la versión del inicio a los créditos. </p>
+		<p> - Se ha añadido la opción de volver al lugar anterior en todas las Pantallas Diferentes. </p>
+		<p> - Se ha traducido el juego completamente al Español (En futuras actualizaciones añadiremos completamente el Inglés). </p>
 		<p> - Si todavía no has visto los cambios de balance de la versión 0.2.0, puedes consultarlos <a href="update-changes.php"> aquí. </a></p>
 		<p> Por favor, si tienes algún problema, contacta con: "primitech.studios@gmail.com" </p>
 		
 		<p> ¿Podrás resolver el mundo del Puzzle? </p>
 		<p> ¡Muchas gracias! </p>
-		<p> &copy; 2017 - 2018 Primitech Studios </p>
+		<p> &copy; 2018 Primitech Studios </p>
 	</div>
 	</body>
 </html>

@@ -11,12 +11,13 @@
 		<title>Ceuta</title>
 	</head>
 	<body>
+	<p><a href="cities.php"> Volver a la Pantalla de Selección </a></p>
 	<div class="main-container">
 		<ul>
 			<li>
 				<p>La Casa de los Dragones. 
 					<?PHP if ($logged){?>
-						 Points: <?= $fgmembersite->readPoints(1); ?></p>
+						 Puntos: <?= $fgmembersite->readPoints(1); ?></p>
 					<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=ceuta/casa-dragones">¡Hacer el puzzle!</a></p>
@@ -26,7 +27,7 @@
 			<li>
 				<p>Parque Marítimo del Mediterráneo.
 					<?PHP if ($logged){?>
-						 Points: <?= $fgmembersite->readPoints(2); ?></p>
+						 Puntos: <?= $fgmembersite->readPoints(2); ?></p>
 					<?PHP } ?></p>
 				<div>
 					<p><a href="puzzle.php?name=ceuta/parque-maritimo">¡Hacer el puzzle!</a></p>
@@ -35,7 +36,7 @@
 			<li>
 				<p>Las Murallas Reales.
 					<?PHP if ($logged){?>
-						 Points: <?= $fgmembersite->readPoints(3); ?></p>
+						 Puntos: <?= $fgmembersite->readPoints(3); ?></p>
 					<?PHP } ?></p>
 				<div>
 					<p><a href="puzzle.php?name=ceuta/murallas-reales">¡Hacer el puzzle!</a></p>

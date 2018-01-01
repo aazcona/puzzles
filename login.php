@@ -14,39 +14,39 @@ if(isset($_POST['submitted']))
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 <head>
 	<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
-	<title>Login</title>
+	<title>Iniciar Sesión</title>
 	<link rel="STYLESHEET" type="text/css" href="css/fg_membersite.css" />
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<script type='text/javascript' src='js/gen_validatorv31.js'></script>
 </head>
 <body>
-
+<p><a href="settings.html"> Volver a la Configuración </a></p>
 <!-- Form Code Start -->
 <div id='fg_membersite' class='main-container'>
 	<form id='login' action='<?php echo $fgmembersite->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
 	<fieldset >
-	<legend>Login</legend>
+	<legend>Iniciar Sesión</legend>
 
 	<input type='hidden' name='submitted' id='submitted' value='1'/>
 
-	<div class='short_explanation'>* required fields</div>
+	<div class='short_explanation'>* campos requeridos</div>
 
 	<div><span class='error'><?php echo $fgmembersite->GetErrorMessage(); ?></span></div>
 	<div class='container'>
-	    <label for='username' >UserName*:</label><br/>
+	    <label for='username' >Nombre de Usuario*:</label><br/>
 	    <input type='text' name='username' id='username' value='<?php echo $fgmembersite->SafeDisplay('username') ?>' maxlength="50" /><br/>
 	    <span id='login_username_errorloc' class='error'></span>
 	</div>
 	<div class='container'>
-	    <label for='password' >Password*:</label><br/>
+	    <label for='password' >Contraseña*:</label><br/>
 	    <input type='password' name='password' id='password' maxlength="50" /><br/>
 	    <span id='login_password_errorloc' class='error'></span>
 	</div>
 
 	<div class='container'>
-	    <input type='submit' name='Submit' value='Submit' />
+	    <input type='submit' name='Submit' value='Enviar' />
 	</div>
-	<div class='short_explanation'><a href='reset-pwd-req.php'>Forgot Password?</a></div>
+	<div class='short_explanation'><a href='reset-pwd-req.php'>¿Olvidaste la contraseña?</a></div>
 	</fieldset>
 	</form>
 	<!-- client-side Form Validations:

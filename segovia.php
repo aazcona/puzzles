@@ -11,12 +11,13 @@
 		<title>Segovia</title>
 	</head>
 	<body>
+	<p><a href="cities.php"> Volver a la Selección de Niveles </a></p>
 	<div class="main-container">
 		<ul>
 			<li>
 				<p>Acueducto Romano.
 				<?PHP if ($logged){?>
-					Points: <?= $fgmembersite->readPoints(10); ?></p>
+					Puntos: <?= $fgmembersite->readPoints(10); ?></p>
 				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=segovia/acueducto-segovia">¡Hacer el puzzle!</a></p>
@@ -25,7 +26,7 @@
 			<li>
 				<p>Alcázar de Segovia.
 				<?PHP if ($logged){?>
-					Points: <?= $fgmembersite->readPoints(11); ?></p>
+					Puntos: <?= $fgmembersite->readPoints(11); ?></p>
 				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=segovia/alcazar-segovia">¡Hacer el puzzle!</a></p>
@@ -34,7 +35,7 @@
 			<li>
 				<p>Plaza de la Artillería.
 				<?PHP if ($logged){?>
-					Points: <?= $fgmembersite->readPoints(12); ?></p>
+					Puntos: <?= $fgmembersite->readPoints(12); ?></p>
 				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=segovia/plaza-artilleria-segovia">¡Hacer el puzzle!</a></p>

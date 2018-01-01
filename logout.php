@@ -7,7 +7,7 @@ $fgmembersite->LogOut();
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 <head>
 	<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
-	<title>Login</title>
+	<title>Cerrar Sesión</title>
 	<link rel="stylesheet" type="text/css" href="css/fg_membersite.css" />
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<script type='text/javascript' src='js/gen_validatorv31.js'></script>
@@ -15,12 +15,12 @@ $fgmembersite->LogOut();
 <body>
 
 <div class="main-container">
-	<h2>You have logged out</h2>
+	<h2>Has cerrado la Sesión</h2>
 	<p>
-		<a href='login.php'>Login Again</a>
+		<a href='login.php'>Volver a Iniciar Sesión</a>
 	</p>
 	<p>
-		<a href='cities.php'>Continue without logging in</a>
+		<a href='cities.php'>Seguir como Invitado</a>
 	</p>
 </div>
 </body>

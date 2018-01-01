@@ -14,8 +14,8 @@
 		<div class="main-container">
 			<?PHP if ($logged){?>
 				<div id="logged-user">
-					<span class="left">Hello <?= $fgmembersite->UserFullName(); ?></span>
-					<span class="right"><a href='logout.php'>Logout</a></span>
+					<span class="left">Hola <?= $fgmembersite->UserFullName(); ?></span>
+					<span class="right"><a href='logout.php'>Cerrar Sesión</a></span>
 				</div>
 			<?PHP } ?>
 			<p> <a href="index.html"> Volver al Inicio </a>
@@ -27,20 +27,20 @@
 				<li class="granada-option"><a href="granada.php">Granada</a></li>
 				<li class="sevilla-option"><a href="sevilla.php">Sevilla</a></li>
 				<li class="madrid-option">
-					<a href="madrid.html">Madrid</a>
+					<a href="madrid.html">Madrid (¡PRONTO!)</a>
 					<img src="images/candado.png"/>
 				</li>
 					
 				<li class="barcelona-option">
-					<a href="barcelona.php">Barcelona</a>
+					<a href="barcelona.php">Barcelona (NO DISPONIBLE)</a>
 					<img src="images/candado.png"/>
 				</li>
 				<li class="valencia-option">
-					<a href="valencia.php">Valencia</a>
+					<a href="valencia.php">Valencia (NO DISPONIBLE)</a>
 					<img src="images/candado.png"/>
 				</li>
 				<li class="huelva-option">
-					<a href="huelva.php">Huelva</a>
+					<a href="huelva.php">Huelva (NO DISPONIBLE)</a>
 					<img src="images/candado.png"/>
 				</li>
 			</ul>

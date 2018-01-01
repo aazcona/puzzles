@@ -11,12 +11,13 @@
 		<title>Sevilla</title>
 	</head>
 	<body>
+	<p><a href="cities.php"> Volver a la Pantalla de Selección </a></p>
 		<div class="main-container">
 			<ul>
 				<li>
 					<p>Portal del Palacio de San Telmo.
 					<?PHP if ($logged){?>
-						 Points: <?= $fgmembersite->readPoints(16); ?></p>
+						 Puntos: <?= $fgmembersite->readPoints(16); ?></p>
 					<?PHP } ?>
 					<div>
 						<p><a href="puzzle.php?name=sevilla/portal-palacio-telmo">¡Hacer el puzzle!</a></p>
@@ -25,7 +26,7 @@
 				<li>
 					<p>Alcázar de Sevilla.
 					<?PHP if ($logged){?>
-						 Points: <?= $fgmembersite->readPoints(17); ?></p>
+						 Puntos: <?= $fgmembersite->readPoints(17); ?></p>
 					<?PHP } ?>
 					<div>
 						<p><a href="puzzle.php?name=sevilla/alcazar-sevilla">¡Hacer el puzzle!</a></p>
@@ -34,7 +35,7 @@
 				<li>
 					<p>Plaza de España.
 					<?PHP if ($logged){?>
-						 Points: <?= $fgmembersite->readPoints(18); ?></p>
+						 Puntos: <?= $fgmembersite->readPoints(18); ?></p>
 					<?PHP } ?>
 					<div>
 						<p><a href="puzzle.php?name=sevilla/plaza-españa-sevilla">¡Hacer el puzzle!</a></p>

@@ -20,7 +20,7 @@ if(isset($_POST['submitted']))
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 <head>
       <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
-      <title>Change password</title>
+      <title>Cambiar Contraseña</title>
       <link rel="STYLESHEET" type="text/css" href="css/fg_membersite.css" />
       <link rel="stylesheet" type="text/css" href="css/common.css">
       <script type='text/javascript' src='js/gen_validatorv31.js'></script>
@@ -28,20 +28,20 @@ if(isset($_POST['submitted']))
       <script src="js/pwdwidget.js" type="text/javascript"></script>       
 </head>
 <body>
-
+<p><a href="settings.html"> Volver a la Configuración </a></p>
 <!-- Form Code Start -->
 <div id='fg_membersite' class="main-container">
 	<form id='changepwd' action='<?php echo $fgmembersite->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
 	<fieldset >
-	<legend>Change Password</legend>
+	<legend>Cambiar Contraseña</legend>
 
 	<input type='hidden' name='submitted' id='submitted' value='1'/>
 
-	<div class='short_explanation'>* required fields</div>
+	<div class='short_explanation'>* campos requeridos</div>
 
 	<div><span class='error'><?php echo $fgmembersite->GetErrorMessage(); ?></span></div>
 	<div class='container'>
-	    <label for='oldpwd' >Old Password*:</label><br/>
+	    <label for='oldpwd' >Contraseña Antigua*:</label><br/>
 	    <div class='pwdwidgetdiv' id='oldpwddiv' ></div><br/>
 	    <noscript>
 	    <input type='password' name='oldpwd' id='oldpwd' maxlength="50" />
@@ -50,7 +50,7 @@ if(isset($_POST['submitted']))
 	</div>
 
 	<div class='container'>
-	    <label for='newpwd' >New Password*:</label><br/>
+	    <label for='newpwd' >Contraseña Nueva*:</label><br/>
 	    <div class='pwdwidgetdiv' id='newpwddiv' ></div>
 	    <noscript>
 	    <input type='password' name='newpwd' id='newpwd' maxlength="50" /><br/>
@@ -60,7 +60,7 @@ if(isset($_POST['submitted']))
 
 	<br/><br/><br/>
 	<div class='container'>
-	    <input type='submit' name='Submit' value='Submit' />
+	    <input type='submit' name='Submit' value='Enviar' />
 	</div>
 
 	</fieldset>
@@ -84,16 +84,13 @@ if(isset($_POST['submitted']))
 	    frmvalidator.EnableOnPageErrorDisplay();
 	    frmvalidator.EnableMsgsTogether();
 
-	    frmvalidator.addValidation("oldpwd","req","Please provide your old password");
+	    frmvalidator.addValidation("oldpwd","req","Por favor proporciona tu Antigua Contraseña");
 	    
-	    frmvalidator.addValidation("newpwd","req","Please provide your new password");
+	    frmvalidator.addValidation("newpwd","req","Por favor proporciona tu Nueva Contraseña");
 
 	// ]]>
 	</script>
 
-	<p>
-	<a href='login-home.php'>Home</a>
-	</p>
 
 </div>
 <!--

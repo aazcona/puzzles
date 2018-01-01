@@ -12,7 +12,7 @@ if($fgmembersite->ResetPassword())
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 <head>
       <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
-      <title>Reset Password</title>
+      <title>Cambiar Contraseña</title>
       <link rel="STYLESHEET" type="text/css" href="css/fg_membersite.css" />
       <link rel="stylesheet" type="text/css" href="css/common.css">
       <script type='text/javascript' src='js/gen_validatorv31.js'></script>
@@ -22,8 +22,8 @@ if($fgmembersite->ResetPassword())
 	<?php
 	if($success){
 	?>
-	<h2>Password is Reset Successfully</h2>
-	Your new password is sent to your email address.
+	<h2>La Contraseña ha sido Cambiada Correctamente</h2>
+	Tu nueva contraseña ha sido enviada a tu dirección de e-mail.
 	<?php
 	}else{
 	?>

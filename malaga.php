@@ -11,12 +11,13 @@
 		<title>Málaga</title>
 	</head>
 	<body>
+	<p><a href="cities.php"> Volver a la Pantalla de Selección </a></p>
 	<div class="main-container">
 		<ul>
 			<li>
 				<p>Jardín Botánico de la Concepción.
 				<?PHP if ($logged){?>
-					Points: <?= $fgmembersite->readPoints(7); ?></p>
+					Puntos: <?= $fgmembersite->readPoints(7); ?></p>
 				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=malaga/jardin-botanico-concepcion-malaga">¡Hacer el puzzle!</a></p>
@@ -25,7 +26,7 @@
 			<li>
 				<p>Playa Pedregalejo.
 				<?PHP if ($logged){?>
-					Points: <?= $fgmembersite->readPoints(8); ?></p>
+					Puntos: <?= $fgmembersite->readPoints(8); ?></p>
 				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=malaga/playa-pedregalejo-malaga">¡Hacer el puzzle!</a></p>
@@ -34,7 +35,7 @@
 			<li>
 				<p>Teatro Romano.
 				<?PHP if ($logged){?>
-					Points: <?= $fgmembersite->readPoints(9); ?></p>
+					Puntos: <?= $fgmembersite->readPoints(9); ?></p>
 				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=malaga/teatro-romano-malaga">¡Hacer el puzzle!</a></p>

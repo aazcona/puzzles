@@ -16,6 +16,7 @@ if(!$fgmembersite->CheckLogin())
 		<title>Tutorial y Preguntas Frecuentes</title>
 	</head>
 	<body>
+	<p><a href="cities.php"> Volver a la Pantalla de Selección </a></p>
 	<div class="tutorial-question-selection">
 																<p> CÓMO JUGAR </p>  												                          
 		<p> - El objetivo del juego es terminar el puzzle en el menor tiempo posible para ganar las 3 estrellas. </p>

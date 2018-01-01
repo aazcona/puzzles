@@ -16,7 +16,7 @@ if(isset($_POST['submitted']))
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 <head>
 	<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
-	<title>Reset Password Request</title>
+	<title>Petición de Cambiar la Contraseña</title>
 	<link rel="STYLESHEET" type="text/css" href="css/fg_membersite.css" />
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<script type='text/javascript' src='js/gen_validatorv31.js'></script>
@@ -26,19 +26,19 @@ if(isset($_POST['submitted']))
 	<div id='fg_membersite' class='main-container'>
 		<form id='resetreq' action='<?php echo $fgmembersite->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
 		<fieldset >
-		<legend>Reset Password</legend>
+		<legend>Cambiar Contraseña</legend>
 
 		<input type='hidden' name='submitted' id='submitted' value='1'/>
 
-		<div class='short_explanation'>* required fields</div>
+		<div class='short_explanation'>* campos requeridos</div>
 
 		<div><span class='error'><?php echo $fgmembersite->GetErrorMessage(); ?></span></div>
 		<div class='container'>
-		    <label for='username' >Your Email*:</label><br/>
+		    <label for='username' >Tu E-mail*:</label><br/>
 		    <input type='text' name='email' id='email' value='<?php echo $fgmembersite->SafeDisplay('email') ?>' maxlength="50" /><br/>
 		    <span id='resetreq_email_errorloc' class='error'></span>
 		</div>
-		<div class='short_explanation'>A link to reset your password will be sent to the email address</div>
+		<div class='short_explanation'>Un Enlace para Cambiar la Contraseña ha sido enviado a tu dirección de E-mail.</div>
 		<div class='container'>
 		    <input type='submit' name='Submit' value='Submit' />
 		</div>

@@ -17,12 +17,12 @@ function PasswordWidget(divid,pwdname)
 	this.MakePWDWidget=_MakePWDWidget;
 
 	this.showing_pwd=1;
-	this.txtShow = 'Show';
-	this.txtMask = 'Mask';
-	this.txtGenerate = 'Generate';
-	this.txtWeak='weak';
-	this.txtMedium='medium';
-	this.txtGood='good';
+	this.txtShow = 'Mostrar';
+	this.txtMask = 'Ocultar';
+	this.txtGenerate = 'Generar';
+	this.txtWeak='Débil';
+	this.txtMedium='Media';
+	this.txtGood='Buena';
 
 	this.enableShowMask=true;
 	this.enableGenerate=true;

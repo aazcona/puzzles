@@ -11,12 +11,13 @@
 		<title>Melilla</title>
 	</head>
 	<body>
+	<p><a href="cities.php"> Volver a la Pantalla de Selección </a></p>
 	<div class="main-container">
 		<ul>
 			<li>
 				<p>Faro de Melilla.
 				<?PHP if ($logged){?>
-					Points: <?= $fgmembersite->readPoints(4); ?></p>
+					Puntos: <?= $fgmembersite->readPoints(4); ?></p>
 				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=melilla/faro-melilla">¡Hacer el puzzle!</a></p>
@@ -25,7 +26,7 @@
 			<li>
 				<p>Arquitectura de Melilla.
 				<?PHP if ($logged){?>
-					Points: <?= $fgmembersite->readPoints(5); ?></p>
+					Puntos: <?= $fgmembersite->readPoints(5); ?></p>
 				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=melilla/arquitectura-melilla">¡Hacer el puzzle!</a></p>
@@ -34,7 +35,7 @@
 			<li>
 				<p>Iglesia de la Purísima Concepción.
 				<?PHP if ($logged){?>
-					Points: <?= $fgmembersite->readPoints(6); ?></p>
+					Puntos: <?= $fgmembersite->readPoints(6); ?></p>
 				<?PHP } ?>
 				<div>
 					<p><a href="puzzle.php?name=melilla/iglesia-purisima-concepcion">¡Hacer el puzzle!</a></p>

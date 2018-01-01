@@ -17,11 +17,13 @@ if(!$fgmembersite->CheckLogin())
 		<title>Configuración</title>
 	</head>
 	<body>
+	<p><a href="settings.html"> Volver a la Configuración </a></p>
 		<div class="main-container">
 			<form action="/action_page.php">
 				Música: <input type="checkbox" name="music"><br>
 				<input type="submit" value="Submit">
 			</form>
+			<p> NOTA: ACTUALMENTE ESTO NO FUNCIONA, DISEÑAREMOS UN NUEVO SISTEMA EN LAS PRÓXIMAS ACTUALIZACIONES. </p>
 		</div>
 	</body>
 </html>
