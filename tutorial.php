@@ -34,7 +34,7 @@ if(!$fgmembersite->CheckLogin())
 		 <p> - Este nivel es muy díficil. ¿Estás seguro que se pueden hacer las 3 estrellas? </p>
 		 <p> No te preocupes, lo tenemos todo comprobado. Está todo perfectamente pasable. No pasa nada si no las consigues a la primera vez, podrás intentarlo todas las veces que quieras. </p>
 		 <p> - He vuelto a entrar al juego y he visto que he perdido mis datos. ¿Qué puedo hacer? </p>
-		 <p> Muy sencillo. Vete a la pantalla principal y selecciona la imagen principal de configuración y regístrate. Una vez hecho, tus datos se sincronizarán con nuestro nuevo servidor. </p>
+		 <p> Muy sencillo. Vete a la pantalla principal y selecciona la imagen principal de configuración y regístrate. Sigue todos los pasos, y una vez hecho, tus progresos se sincronizarán con automáticamente. </p>
 
 		 <p> Esperamos haber solucionado tu pregunta con este cuestionario. Si no ha sido así, contacta con nosotros a través de nuestro correo: primitech.studios@gmail.com </p>
 
