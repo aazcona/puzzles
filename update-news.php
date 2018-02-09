@@ -23,7 +23,7 @@ if(!$fgmembersite->CheckLogin())
 		<p> - Se han añadido más enlaces para poder ir a ciertos lugares del juego sin necesidad del botón de "Atrás" del Navegador. </p>
 		<p> - Nuevo Nivel: ¡MADRID!. </p>
 		<p> - Pequeñas mejoras en la traducción al Español (Recordamos que en futuras actualizaciones este juego estará disponible en más idiomas). </p>
-		<p> - Cambios en el Sistema de Puntos (Pronto abrán nuevos Balances).</p>
+		<p> - Cambios en el Sistema de Puntos (Ahora Sevilla tiene el tiempo aumentado para que sea más fácil conseguir las 3 estrellas, y Madrid tiene los anteriores tiempos de Sevilla) </p>
 		<p> - Si todavía no has visto los cambios de balance de la versión 0.2.0, puedes consultarlos <a href="update-changes.php"> aquí. </a></p>
 		<p> Por favor, si tienes algún problema, contacta con: "primitech.studios@gmail.com" </p>
 		

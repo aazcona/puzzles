@@ -401,11 +401,11 @@ function calculatePoints()
 	}
 	else if (_puzzleName.indexOf('sevilla') > -1)
 	{
-		if (_seconds <= 100)
+		if (_seconds <= 120)
 			_stars = 3;
-		else if (_seconds <= 200)
+		else if (_seconds <= 240)
 			_stars = 2;
-		else if (_seconds <= 300)
+		else if (_seconds <= 360)
 			_stars = 1;
 		
 		_points = Math.floor(puzzle_difficulty * 50000 / _seconds);
@@ -413,11 +413,11 @@ function calculatePoints()
 	}
 	else if (_puzzleName.indexOf('madrid') > -1)
 	{
-		if (_seconds <= 120)
+		if (_seconds <= 100)
 			_stars = 3;
-		else if (_seconds <= 240)
+		else if (_seconds <= 200)
 			_stars = 2;
-		else if (_seconds <= 360)
+		else if (_seconds <= 300)
 			_stars = 1;
 		
 		_points = Math.floor(puzzle_difficulty * 70000 / _seconds);
