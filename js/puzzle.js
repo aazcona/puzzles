@@ -38,7 +38,7 @@ function init(){
 	else if (_puzzleName.indexOf('sevilla') > -1)
 		puzzle_difficulty = 5;
 	else if (_puzzleName.indexOf('madrid') > -1)
-		puzzle_difficulty = 6;
+		puzzle_difficulty = 5;
 }
 function onImage(e){
 	_pieceWidth = Math.floor(_img.width / puzzle_difficulty)

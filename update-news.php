@@ -22,7 +22,6 @@ if(!$fgmembersite->CheckLogin())
 		<p> ¿Qué novedades trae? </p>
 		<p> - Se han añadido más enlaces para poder ir a ciertos lugares del juego sin necesidad del botón de "Atrás" del Navegador. </p>
 		<p> - Nuevo Nivel: ¡MADRID!. </p>
-		<p> - ¡Nuevo Nivel de Dificultad en Madrid!. </p>
 		<p> - Pequeñas mejoras en la traducción al Español (Recordamos que en futuras actualizaciones este juego estará disponible en más idiomas). </p>
 		<p> - Cambios en el Sistema de Puntos (Pronto abrán nuevos Balances).</p>
 		<p> - Si todavía no has visto los cambios de balance de la versión 0.2.0, puedes consultarlos <a href="update-changes.php"> aquí. </a></p>
