@@ -26,11 +26,7 @@
 				<li class="segovia-option"><a href="segovia.php">Segovia</a></li>
 				<li class="granada-option"><a href="granada.php">Granada</a></li>
 				<li class="sevilla-option"><a href="sevilla.php">Sevilla</a></li>
-				<li class="madrid-option">
-					<a href="madrid.html">Madrid (¡PRONTO!)</a>
-					<img src="images/candado.png"/>
-				</li>
-					
+				<li class="madrid-option"><a href="madrid.php">Madrid</a></li>	
 				<li class="barcelona-option">
 					<a href="barcelona.php">Barcelona (NO DISPONIBLE)</a>
 					<img src="images/candado.png"/>

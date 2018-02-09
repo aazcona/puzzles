@@ -37,6 +37,8 @@ function init(){
 		puzzle_difficulty = 4;
 	else if (_puzzleName.indexOf('sevilla') > -1)
 		puzzle_difficulty = 5;
+	else if (_puzzleName.indexOf('madrid') > -1)
+		puzzle_difficulty = 6;
 }
 function onImage(e){
 	_pieceWidth = Math.floor(_img.width / puzzle_difficulty)
@@ -323,6 +325,11 @@ function calculateLevel()
 		else if (_puzzleName.indexOf('plaza-españa-sevilla')> -1)
 			_level = 18;
 	}
+	else if (_puzzleName.indexOf('madrid') > -1)
+	{
+		if (_puzzleName.indexOf('plaza-mayor-madrid')> -1)
+			_level = 19;
+	}
 }
 
 
@@ -404,6 +411,19 @@ function calculatePoints()
 		_points = Math.floor(puzzle_difficulty * 50000 / _seconds);
 		
 	}
+	else if (_puzzleName.indexOf('madrid') > -1)
+	{
+		if (_seconds <= 120)
+			_stars = 3;
+		else if (_seconds <= 240)
+			_stars = 2;
+		else if (_seconds <= 360)
+			_stars = 1;
+		
+		_points = Math.floor(puzzle_difficulty * 70000 / _seconds);
+		
+	}
+
 	// Set a dark transparent background
 	_canvas = document.getElementById('canvas');
 	_stage = _canvas.getContext('2d');

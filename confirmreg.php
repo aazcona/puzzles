@@ -14,30 +14,30 @@ if(isset($_GET['code']))
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 <head>
       <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
-      <title>Confirm registration</title>
+      <title>Confirmar Registro</title>
       <link rel="STYLESHEET" type="text/css" href="css/fg_membersite.css" />
       <link rel="stylesheet" type="text/css" href="css/common.css">
       <script type='text/javascript' src='js/gen_validatorv31.js'></script>
 </head>
 <body>
-
-<h2>Confirm registration</h2>
+<p> <a href="settings.html"> Volver a la Configuración </a></p>
+<h2>Confirmar Registro</h2>
 <p>
-Please enter the confirmation code in the box below
+Por favor, escribe el código de confirmación en el espacio de abajo.
 </p>
 
 <!-- Form Code Start -->
 <div id='fg_membersite' class="main-container">
 	<form id='confirm' action='<?php echo $fgmembersite->GetSelfScript(); ?>' method='get' accept-charset='UTF-8'>
-	<div class='short_explanation'>* required fields</div>
+	<div class='short_explanation'>* Campos Requeridos</div>
 	<div><span class='error'><?php echo $fgmembersite->GetErrorMessage(); ?></span></div>
 	<div class='container'>
-	    <label for='code' >Confirmation Code:* </label><br/>
+	    <label for='code' >Código de Confirmación:* </label><br/>
 	    <input type='text' name='code' id='code' maxlength="50" /><br/>
 	    <span id='register_code_errorloc' class='error'></span>
 	</div>
 	<div class='container'>
-	    <input type='submit' name='Submit' value='Submit' />
+	    <input type='submit' name='Submit' value='Enviar' />
 	</div>
 
 	</form>
