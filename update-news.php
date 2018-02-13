@@ -18,12 +18,11 @@ if(!$fgmembersite->CheckLogin())
 	<body>
 	<p><a href="cities.php"> Volver a la Selección de Niveles </a></p>
 	<div class="main-container">
-		<p> ACTUALIZACIÓN (MINI): VERSIÓN 0.2.6 </p>
+		<p> ACTUALIZACIÓN (BUGFIX): VERSIÓN 0.2.65 </p>
 		<p> ¿Qué novedades trae? </p>
-		<p> - Se han añadido más enlaces para poder ir a ciertos lugares del juego sin necesidad del botón de "Atrás" del Navegador. </p>
-		<p> - Nuevo Nivel: ¡MADRID!. </p>
-		<p> - Pequeñas mejoras en la traducción al Español (Recordamos que en futuras actualizaciones este juego estará disponible en más idiomas). </p>
-		<p> - Cambios en el Sistema de Puntos (Ahora Sevilla tiene el tiempo aumentado para que sea más fácil conseguir las 3 estrellas, y Madrid tiene los anteriores tiempos de Sevilla) </p>
+		<p> - Se ha reajustado el tiempo de Madrid. </p>	
+		<p> - Se han arreglado los niveles de Málaga y Melilla que tenían problemas para desplazar las piezas del puzzle. </p>
+		<p> - Dentro de Málaga se ha realizado un cambio en el Nivel 2, ha pasado de Playa Pedregalejo a Centro Histórico. </p>
 		<p> - Si todavía no has visto los cambios de balance de la versión 0.2.0, puedes consultarlos <a href="update-changes.php"> aquí. </a></p>
 		<p> Por favor, si tienes algún problema, contacta con: "primitech.studios@gmail.com" </p>
 		

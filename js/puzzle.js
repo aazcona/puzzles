@@ -293,7 +293,7 @@ function calculateLevel()
 	{
 		if (_puzzleName.indexOf('jardin-botanico-concepcion-malaga')> -1)
 			_level = 7;
-		else if (_puzzleName.indexOf('playa-pedregalejo-malaga')> -1)
+		else if (_puzzleName.indexOf('centro-historico-malaga')> -1)
 			_level = 8;
 		else if (_puzzleName.indexOf('teatro-romano-malaga')> -1)
 			_level = 9;

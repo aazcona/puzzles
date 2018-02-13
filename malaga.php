@@ -24,12 +24,12 @@
 				</div>
 			</li>
 			<li>
-				<p>Playa Pedregalejo.
+				<p>Centro Histórico.
 				<?PHP if ($logged){?>
 					Puntos: <?= $fgmembersite->readPoints(8); ?></p>
 				<?PHP } ?>
 				<div>
-					<p><a href="puzzle.php?name=malaga/playa-pedregalejo-malaga">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=malaga/centro-historico-malaga">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>
