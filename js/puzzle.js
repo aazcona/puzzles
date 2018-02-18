@@ -322,16 +322,16 @@ function calculateLevel()
 			_level = 16;
 		else if (_puzzleName.indexOf('alcazar-sevilla')> -1)
 			_level = 17;
-		else if (_puzzleName.indexOf('plaza-españa-sevilla')> -1)
+		else if (_puzzleName.indexOf('plaza-espana-sevilla')> -1)
 			_level = 18;
 	}
 	else if (_puzzleName.indexOf('madrid') > -1)
 	{
 		if (_puzzleName.indexOf('plaza-mayor-madrid')> -1)
 			_level = 19;
-		else if (_puzzleName.indexOf('')> -1)
+		else if (_puzzleName.indexOf('puerta-alcala-madrid')> -1)
 			_level = 20;
-		else if (_puzzleName.indexOf('')> -1)
+		else if (_puzzleName.indexOf('torres-kio-madrid')> -1)
 			_level = 21;
 	}
 }

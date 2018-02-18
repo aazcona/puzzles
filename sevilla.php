@@ -38,7 +38,7 @@
 						 Puntos: <?= $fgmembersite->readPoints(18); ?></p>
 					<?PHP } ?>
 					<div>
-						<p><a href="puzzle.php?name=sevilla/plaza-españa-sevilla">¡Hacer el puzzle!</a></p>
+						<p><a href="puzzle.php?name=sevilla/plaza-espana-sevilla">¡Hacer el puzzle!</a></p>
 					</div>
 				</li>
 			</ul>

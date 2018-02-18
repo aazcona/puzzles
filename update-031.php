@@ -13,10 +13,10 @@ if(!$fgmembersite->CheckLogin())
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="stylesheet" type="text/css" href="css/common.css">
-		<title>Tablón de Novedades</title>
+		<title>Noticias</title>
 	</head>
 	<body>
-	<p><a href="cities.php"> Volver a la Selección de Niveles </a></p>
+	<p><a href="news.php"> Volver al Tablón de Noticias </a></p>
 	<div class="main-container">
 		<p> ACTUALIZACIÓN (MINI): VERSIÓN 0.3.1 </p>
 		<p> ¿Qué novedades trae? </p>
@@ -25,10 +25,7 @@ if(!$fgmembersite->CheckLogin())
 		<p> - Se ha arreglado varios bugs a la hora de mandar correos para el registro de tu cuenta. </p>	
 		<p> - Se han hecho mejoras en la traducción del juego. </p>
 
-		<p> Por favor, si tienes algún problema, contacta con: "primitech.studios@gmail.com" </p>
-		
 		<p> ¿Podrás resolver el mundo del Puzzle? </p>
-		<p> ¡Muchas gracias! </p>
 		<p> &copy; 2017 - 2018 Primitech Studios </p>
 	</div>
 	</body>
