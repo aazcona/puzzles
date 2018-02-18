@@ -17,7 +17,7 @@ if(!$fgmembersite->CheckLogin())
 	</head>
 	<body>
 	<div class="main-container">
-		<p> CAMBIOS DE BALANCE (ACTUALIZACIÓN 0.2.6) </p>
+		<p> CAMBIOS DE BALANCE (ACTUALIZACIÓN 0.3.0) </p>
 		<p> ¿Qué cambios trae? </p>
 		<p> - Se ha aumentado en un 25% los puntos que se pueden conseguir en Melilla. </p>
 		<p> - Se ha aumentado en un 67% los puntos que se pueden conseguir en Segovia. </p>

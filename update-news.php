@@ -30,7 +30,8 @@ if(!$fgmembersite->CheckLogin())
 		<p> - Se han hecho cambios en la Pantalla de Configuración. </p>
 		<p> - Se han cambiado las imágenes verticales a horizontales para permitir un mejor desplazamiento de las piezas a la hora de jugar el nivel </p>
 		<p> - Se han cambiado algunos niveles por otros lugares más conocidos de la ciudad. </p>
-		<p> - ¡Nueva Sección de Noticias!. </a></p>
+		<p> - ¡Nueva Sección de Noticias!. </p>
+		<p> - ¡Nuevos cambios de balance! Consúltalos <a href="update-changes-2.php"> aquí. </a></p>
 		<p> Por favor, si tienes algún problema, contacta con: "primitech.studios@gmail.com" </p>
 		
 		<p> ¿Podrás resolver el mundo del Puzzle? </p>
