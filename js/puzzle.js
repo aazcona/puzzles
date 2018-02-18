@@ -388,7 +388,7 @@ function calculatePoints()
 		else if (_seconds <= 120)
 			_stars = 1;
 			
-		_points = Math.floor(puzzle_difficulty * 19000 / _seconds);ç
+		_points = Math.floor(puzzle_difficulty * 19000 / _seconds);
 		
 	}
 	else if (_puzzleName.indexOf('granada') > -1)
