@@ -24,7 +24,7 @@
 				</div>
 			</li>
 			<li>
-				<p>Arquitectura de Melilla.
+				<p>Parque Hernández.
 				<?PHP if ($logged){?>
 					Puntos: <?= $fgmembersite->readPoints(5); ?></p>
 				<?PHP } ?>
