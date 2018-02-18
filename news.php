@@ -12,18 +12,14 @@ if(!$fgmembersite->CheckLogin())
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<link rel="stylesheet" type="text/css" href="css/cities.css">
 		<link rel="stylesheet" type="text/css" href="css/common.css">
-		<title>Configuración</title>
+		<title>Noticias</title>
 	</head>
 	<body>
-	<p><a href="settings.html"> Volver a la Configuración </a></p>
-		<div class="main-container">
-			<form action="/action_page.php">
-				Música: <input type="checkbox" name="music"><br>
-				<input type="submit" value="Submit">
-			</form>
-			<p> NOTA: ACTUALMENTE ESTO NO FUNCIONA, DISEÑAREMOS UN NUEVO SISTEMA EN LAS PRÓXIMAS ACTUALIZACIONES. </p>
-		</div>
+	<p><a href="index.html"> Volver al Inicio </a></p>
+	<div class="main-container">
+		<p><a href="update-changes-2.php"> Cambios de Balance (Versión 0.2.6 - 19/02/2018) </a></p>
+		<p><a href="update-changes.php"> Cambios de Balance (Versión 0.2.0 - 08/04/2017) </a></p>
+	</div>
 	</body>
 </html>

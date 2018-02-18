@@ -282,7 +282,7 @@ function calculateLevel()
 	{
 		if (_puzzleName.indexOf('faro-melilla')> -1)
 			_level = 4;
-		else if (_puzzleName.indexOf('arquitectura-melilla')> -1)
+		else if (_puzzleName.indexOf('parque-hernandez-melilla')> -1)
 			_level = 5;
 		else if (_puzzleName.indexOf('iglesia-purisima-concepcion')> -1)
 			_level = 6;
@@ -329,6 +329,10 @@ function calculateLevel()
 	{
 		if (_puzzleName.indexOf('plaza-mayor-madrid')> -1)
 			_level = 19;
+		else if (_puzzleName.indexOf('')> -1)
+			_level = 20;
+		else if (_puzzleName.indexOf('')> -1)
+			_level = 21;
 	}
 }
 
@@ -361,7 +365,7 @@ function calculatePoints()
 		else if (_seconds <= 60)
 			_stars = 1;
 			
-		_points = Math.floor(puzzle_difficulty * 4000 / _seconds);		
+		_points = Math.floor(puzzle_difficulty * 5000 / _seconds);		
 		
 	}
 	else if (_puzzleName.indexOf('malaga') > -1)
@@ -373,7 +377,7 @@ function calculatePoints()
 		else if (_seconds <= 45)
 			_stars = 1;
 			
-		_points = Math.floor(puzzle_difficulty * 6000 / _seconds);
+		_points = Math.floor(puzzle_difficulty * 10000 / _seconds);
 	}
 	else if (_puzzleName.indexOf('segovia') > -1)
 	{
@@ -420,7 +424,7 @@ function calculatePoints()
 		else if (_seconds <= 300)
 			_stars = 1;
 		
-		_points = Math.floor(puzzle_difficulty * 70000 / _seconds);
+		_points = Math.floor(puzzle_difficulty * 55000 / _seconds);
 		
 	}
 

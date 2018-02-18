@@ -31,7 +31,7 @@ if(!$fgmembersite->CheckLogin())
 		<p> - Se han multiplicado por 50 los puntos que se pueden conseguir en Sevilla. </p>
 		
 		<p> ¿Podrás resolver el mundo del Puzzle? </p>
-		<p> &copy; 2016 - 2017 Primitech Studios </p>
+		<p> &copy; 2017 Primitech Studios </p>
 	</div>
 	</body>
 </html>

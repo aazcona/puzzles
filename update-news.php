@@ -13,17 +13,24 @@ if(!$fgmembersite->CheckLogin())
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="stylesheet" type="text/css" href="css/common.css">
-		<title>Tablón de Novedades y Noticias</title>
+		<title>Tablón de Novedades</title>
 	</head>
 	<body>
 	<p><a href="cities.php"> Volver a la Selección de Niveles </a></p>
 	<div class="main-container">
-		<p> ACTUALIZACIÓN (BUGFIX): VERSIÓN 0.2.65 </p>
+		<p> ACTUALIZACIÓN: VERSIÓN 0.3.0 </p>
+		<p> ¡UNA DE LAS MÁS GRANDES DEL JUEGO! </p>
 		<p> ¿Qué novedades trae? </p>
-		<p> - Se ha reajustado el tiempo de Madrid. </p>	
-		<p> - Se han arreglado los niveles de Málaga y Melilla que tenían problemas para desplazar las piezas del puzzle. </p>
-		<p> - Dentro de Málaga se ha realizado un cambio en el Nivel 2, ha pasado de Playa Pedregalejo a Centro Histórico. </p>
-		<p> - Si todavía no has visto los cambios de balance de la versión 0.2.0, puedes consultarlos <a href="update-changes.php"> aquí. </a></p>
+		<p> - Se han aplicado mejoras a la traducción del Español. </p>
+		<p> - Se han añadido más enlaces para facilitar el desplazamiento por el juego. </p>
+		<p> - Se ha reajustado el tamaño de las imágenes para evitar el uso de zoom del navegador. </p>	
+		<p> - Se han reemplazado las imágenes de los niveles que tenían problemas para desplazar las piezas del puzzle. </p>
+		<p> - Se ha rehabilitado el canal de YouTube. </p>
+		<p> - Correciones de textos. </p>
+		<p> - Se han hecho cambios en la Pantalla de Configuración. </p>
+		<p> - Se han cambiado las imágenes verticales a horizontales para permitir un mejor desplazamiento de las piezas a la hora de jugar el nivel </p>
+		<p> - Se han cambiado algunos niveles por otros lugares más conocidos de la ciudad. </p>
+		<p> - ¡Nueva Sección de Noticias!. </a></p>
 		<p> Por favor, si tienes algún problema, contacta con: "primitech.studios@gmail.com" </p>
 		
 		<p> ¿Podrás resolver el mundo del Puzzle? </p>

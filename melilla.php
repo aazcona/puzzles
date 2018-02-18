@@ -29,7 +29,7 @@
 					Puntos: <?= $fgmembersite->readPoints(5); ?></p>
 				<?PHP } ?>
 				<div>
-					<p><a href="puzzle.php?name=melilla/arquitectura-melilla">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=melilla/parque-hernandez-melilla">¡Hacer el puzzle!</a></p>
 				</div>
 			</li>
 			<li>

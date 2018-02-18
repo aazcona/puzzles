@@ -28,7 +28,7 @@
 				<li class="sevilla-option"><a href="sevilla.php">Sevilla</a></li>
 				<li class="madrid-option"><a href="madrid.php">Madrid</a></li>	
 				<li class="barcelona-option">
-					<a href="barcelona.php">Barcelona (NO DISPONIBLE)</a>
+					<a href="barcelona.php">Barcelona (PRONTO...)</a>
 					<img src="images/candado.png"/>
 				</li>
 				<li class="valencia-option">
@@ -40,8 +40,8 @@
 					<img src="images/candado.png"/>
 				</li>
 			</ul>
-			<p> <a href="tutorial.php"> Tutorial y Preguntas Frecuentes (1) </a> </p>
-			<p> <a href="update-news.php"> Tablón de Novedades (2) </a> </p>
+			<p><a href="tutorial.php"> Tutorial y Preguntas Frecuentes (1) </a></p>
+			<p><a href="update-news.php"> Tablón de Novedades (2) </a></p>
 		</div>
 	</body>
 </html>

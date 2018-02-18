@@ -33,6 +33,7 @@ if($fgmembersite->ResetPassword())
 	}
 	?>
 </div>
-
+<p><a href="settings.html"> Volver a la Pantalla de Configuración </a></p>
+<p><a href="login.php"> Volver al Inicio de Sesión </a></p>
 </body>
 </html>
