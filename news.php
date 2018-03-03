@@ -19,7 +19,7 @@ if(!$fgmembersite->CheckLogin())
 	<p><a href="index.html"> Volver al Inicio </a></p>
 	<div class="main-container">
 	<p> ¡Bienvenido a la Sección de Noticias! Aquí iremos publicando nuestras novedades más recientes. ¡Esperamos que os guste! </p>
-		<p><a href="update-031.php"> ¡Nueva Actualización! (Versión 0.3.1 - 23/02/2018?) </a></p>
+		<p><a href="update-031.php"> ¡Nueva Actualización! (Versión 0.3.1 - 03/03/2018) </a></p>
 		<p><a href="update-changes-2.php"> Cambios de Balance (Versión 0.3.0 - 18/02/2018) </a></p>
 		<p><a href="update-changes.php"> Cambios de Balance (Versión 0.2.0 - 08/04/2017) </a></p>
 	</div>
