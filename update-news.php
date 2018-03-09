@@ -18,17 +18,12 @@ if(!$fgmembersite->CheckLogin())
 	<body>
 	<p><a href="cities.php"> Volver a la Selección de Niveles </a></p>
 	<div class="main-container">
-		<p> ACTUALIZACIÓN (MINI): VERSIÓN 0.3.1 </p>
+		<p> ACTUALIZACIÓN (MINI BUGFIX): VERSIÓN 0.3.15 </p>
 		<p> ¿Qué novedades trae? </p>
-		<p> - Se han añadido 2 nuevos niveles a Madrid. </p>
-		<p> - Se ha arreglado un bug en el Nivel 18 que no mandaba los datos al servidor. </p>
-		<p> - Se ha arreglado varios bugs a la hora de mandar correos para el registro de tu cuenta. </p>	
-		<p> - Se han hecho mejoras en la traducción del juego. </p>
+		<p> - Se ha cambiado el nivel 21 y se ha arreglado el bug del servidor. </p>
+		<p> - Se han hecho pequeños cambios en la traducción del Español. </p>
 
-		<p> Por favor, si tienes algún problema, contacta con: "primitech.studios@gmail.com" </p>
-		
 		<p> ¿Podrás resolver el mundo del Puzzle? </p>
-		<p> ¡Muchas gracias! </p>
 		<p> &copy; 2017 - 2018 Primitech Studios </p>
 	</div>
 	</body>

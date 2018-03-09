@@ -35,12 +35,12 @@
 				</div>
 			</li>
 			<li>
-				<p>Torres KIO. 
+				<p>Puerta del Sol. 
 					<?PHP if ($logged){?>
 						 Puntos: <?= $fgmembersite->readPoints(21); ?></p>
 					<?PHP } ?>
 				<div>
-					<p><a href="puzzle.php?name=madrid/torres-kio-madrid">¡Hacer el puzzle!</a></p>
+					<p><a href="puzzle.php?name=madrid/puerta-sol-madrid">¡Hacer el puzzle!</a></p>
 
 				</div>
 			</li>

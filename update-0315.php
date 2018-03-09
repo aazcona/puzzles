@@ -16,13 +16,15 @@ if(!$fgmembersite->CheckLogin())
 		<title>Noticias</title>
 	</head>
 	<body>
-	<p><a href="index.html"> Volver al Inicio </a></p>
+	<p><a href="news.php"> Volver al Tablón de Noticias </a></p>
 	<div class="main-container">
-	<p> ¡Bienvenido a la Sección de Noticias! Aquí iremos publicando nuestras novedades más recientes. ¡Esperamos que os guste! </p>
-		<p><a href="update-0315.php"> ¡Arreglos de Errores! (Versión 0.3.15 - 09/03/2018) </a></p>
-		<p><a href="update-031.php"> ¡Nueva Actualización! (Versión 0.3.1 - 03/03/2018) </a></p>
-		<p><a href="update-changes-2.php"> Cambios de Balance (Versión 0.3.0 - 18/02/2018) </a></p>
-		<p><a href="update-changes.php"> Cambios de Balance (Versión 0.2.0 - 08/04/2017) </a></p>
+		<p> ACTUALIZACIÓN (MINI BUGFIX): VERSIÓN 0.3.15 </p>
+		<p> ¿Qué novedades trae? </p>
+		<p> - Se ha cambiado el nivel 21 y se ha arreglado el bug del servidor. </p>
+		<p> - Se han hecho pequeños cambios en la traducción del Español. </p>
+
+		<p> ¿Podrás resolver el mundo del Puzzle? </p>
+		<p> &copy; 2017 - 2018 Primitech Studios </p>
 	</div>
 	</body>
 </html>

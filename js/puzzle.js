@@ -331,7 +331,7 @@ function calculateLevel()
 			_level = 19;
 		else if (_puzzleName.indexOf('puerta-alcala-madrid')> -1)
 			_level = 20;
-		else if (_puzzleName.indexOf('torres-kio-madrid')> -1)
+		else if (_puzzleName.indexOf('puerta-sol-madrid')> -1)
 			_level = 21;
 	}
 }
