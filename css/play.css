@@ -53,33 +53,29 @@
 	text-align: right;
 }
 
-.play-option a:link, .play-option a:hover, .play-option a:visited, .play-option a:active
+.play-option a:link, a:visited
 {
 	color:#40FF00;
 }
 
-.facebook-option a:link, .facebook-option a:hover, .facebook-option a:visited, .facebook-option a:active
+.twitter-option a:link, a:visited
 {
-	color:#0101DF;
-}
-
-.twitter-option a:link, .twitter-option a:hover, .twitter-option a:visited, .twitter-option a:active
-{
-	color:#2ECCFA;
+	color: blue;
 }
 
 .gmail-option
 {
-	font-size: 28px;
+	font-size: 30px;
 	line-height: 100px;
+	color: gold;
 }
 
-.youtube-option a:link, .youtube-option a:hover, .youtube-option a:visited, .youtube-option a:active
+.youtube-option a:link, a:visited
 {
 	color: red;
 }
 
-.google-option a:link, .google-option a:hover, .google-option a:visited, .google-option a:active
+.google-option a:link, a:visited
 {
-	color:brown;
+	color: brown;
 }

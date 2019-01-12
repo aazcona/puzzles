@@ -14,30 +14,31 @@ body
 
 ul
 {
-	list-style-type:decimal;
 	margin-left: 4%;
 }
 
-ul a
+ul.cities
 {
-	text-decoration:none;
+	margin-left: 4%;
+	font-size: 30px;
 }
 
-ul a:link
+ul.cities a:link; a:visited
 {
-	color:#DF0101;
-	text-decoration:underline;
+	color: yellow;
+	text-decoration: none;
 }
 
-ul a:hover
+ul.cities a:hover
 {
-	color:#000000;
+	color: green;
+	text-decoration: none;
 }
 
-ul a:visited
+ul.links-cities
 {
-	color:#00FF00;
-	text-decoration:none;
+	color: orange;
+	text-align: center;
 }
 
 audio

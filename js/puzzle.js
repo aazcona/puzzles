@@ -39,6 +39,8 @@ function init(){
 		puzzle_difficulty = 5;
 	else if (_puzzleName.indexOf('madrid') > -1)
 		puzzle_difficulty = 5;
+	else if (_puzzleName.indexOf('barcelona') > -1)
+		puzzle_difficulty = 6;
 }
 function onImage(e){
 	_pieceWidth = Math.floor(_img.width / puzzle_difficulty)
@@ -334,6 +336,15 @@ function calculateLevel()
 		else if (_puzzleName.indexOf('puerta-sol-madrid')> -1)
 			_level = 21;
 	}
+	else if (_puzzleName.indexOf('barcelona') > -1)
+	{
+		if (_puzzleName.indexOf('palacio-generalidad-barcelona')> -1)
+			_level = 22;
+		else if (_puzzleName.indexOf('puerto-barcelona')> -1)
+			_level = 23;
+		else if (_puzzleName.indexOf('rambla-barcelona')> -1)
+			_level = 24;
+	}
 }
 
 
@@ -425,6 +436,18 @@ function calculatePoints()
 			_stars = 1;
 		
 		_points = Math.floor(puzzle_difficulty * 55000 / _seconds);
+		
+	}
+	else if (_puzzleName.indexOf('barcelona') > -1)
+	{
+		if (_seconds <= 200)
+			_stars = 3;
+		else if (_seconds <= 400)
+			_stars = 2;
+		else if (_seconds <= 600)
+			_stars = 1;
+		
+		_points = Math.floor(puzzle_difficulty * 100000 / _seconds);
 		
 	}
 

@@ -14,7 +14,7 @@
 		<div class="main-container">
 			<?PHP if ($logged){?>
 				<div id="logged-user">
-					<span class="left">Hola <?= $fgmembersite->UserFullName(); ?></span>
+					<span class="left">¡Bienvenido, <?= $fgmembersite->UserFullName(); ?>!</span>
 					<span class="right"><a href='logout.php'>Cerrar Sesión</a></span>
 				</div>
 			<?PHP } ?>
@@ -27,21 +27,12 @@
 				<li class="granada-option"><a href="granada.php">Granada</a></li>
 				<li class="sevilla-option"><a href="sevilla.php">Sevilla</a></li>
 				<li class="madrid-option"><a href="madrid.php">Madrid</a></li>	
-				<li class="barcelona-option">
-					<a href="barcelona.php">Barcelona (PRONTO...)</a>
-					<img src="images/candado.png"/>
-				</li>
-				<li class="valencia-option">
-					<a href="valencia.php">Valencia (NO DISPONIBLE)</a>
-					<img src="images/candado.png"/>
-				</li>
-				<li class="huelva-option">
-					<a href="huelva.php">Huelva (NO DISPONIBLE)</a>
-					<img src="images/candado.png"/>
-				</li>
+				<li class="barcelona-option"><a href="barcelona.php">Barcelona</a></li>
 			</ul>
-			<p><a href="tutorial.php"> Tutorial y Preguntas Frecuentes (1) </a></p>
-			<p><a href="update-news.php"> Tablón de Novedades (2) </a></p>
+			<ul class="links-cities">
+				<li class="tutorial-option"><a href="tutorial.php"> Tutorial y Preguntas Frecuentes </a></p>
+				<li class="update-news-option"><a href="update-news.php"> Tablón de Novedades </a></p>
+			</ul>
 		</div>
 	</body>
 </html>
