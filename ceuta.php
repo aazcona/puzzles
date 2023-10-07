@@ -11,7 +11,7 @@
 		<title>Ceuta</title>
 	</head>
 	<body>
-	<p><a href="cities.php"> Volver a la Pantalla de Selección </a></p>
+	<p><a href="cities.php"> Volver a la Pantalla de Selección de Niveles </a></p>
 	<div class="main-container">
 		<ul>
 			<li>
@@ -19,6 +19,11 @@
 					<?PHP if ($logged){?>
 						 Puntos: <?= $fgmembersite->readPoints(1); ?></p>
 					<?PHP } ?>
+					*/
+					<?PHP if ($logged){?>
+						<?= $fgmembersite->readStars(1); ?></p>
+					<?PHP } ?>
+					/*
 				<div>
 					<p><a href="puzzle.php?name=ceuta/casa-dragones">¡Hacer el puzzle!</a></p>
 

@@ -23,7 +23,7 @@ ul.cities
 	font-size: 30px;
 }
 
-ul.cities a:link; a:visited
+ul.cities a:link, a:visited
 {
 	color: yellow;
 	text-decoration: none;

@@ -19,6 +19,7 @@ if(!$fgmembersite->CheckLogin())
 	<p><a href="index.html"> Volver al Inicio </a></p>
 	<div class="main-container">
 	<p> ¡Bienvenido a la Sección de Noticias! Aquí iremos publicando nuestras novedades más recientes. ¡Esperamos que os guste! </p>
+		<p><a href="update-0401.php"> Correcciones de errores (Versión 0.40.1 - 30/06/2022) </a></p>
 		<p><a href="update-0400.php"> ¡ACTUALIZACIÓN DEL 2º ANIVERSARIO DE WORLD PUZZLES! (Versión 0.40 - 11/01/2019) </a></p>
 		<p><a href="update-0315.php"> ¡Arreglos de Errores! (Versión 0.315 - 09/03/2018) </a></p>
 		<p><a href="update-031.php"> ¡Nueva Actualización! (Versión 0.31 - 03/03/2018) </a></p>
