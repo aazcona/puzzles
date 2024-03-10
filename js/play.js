@@ -1,4 +1,3 @@
-/*
 $('.play').animate({
 	'background-position': '-800px'},
 	2500,
@@ -8,4 +7,3 @@ $('.play').animate({
 		$('.actions').fadeIn();
 	}
 );
-*/
