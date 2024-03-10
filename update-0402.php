@@ -13,16 +13,16 @@ if(!$fgmembersite->CheckLogin())
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="stylesheet" type="text/css" href="css/common.css">
-		<title>ACTUALIZACIÓN v.0.401</title>
+		<title>ACTUALIZACIÓN v.0.402</title>
 	</head>
 	<body>
 	<p><a href="cities.php"> Volver a la Selección de Niveles </a></p>
 	<div class="main-container">
-		<p> NUEVO BUGFIX: VERSIÓN 0.401 </p>
+		<p> NUEVO BUGFIX: VERSIÓN 0.402 </p>
 		<p> ¿Qué novedades trae? </p>
-		<p> - Arreglos menores de la actualización 0.40. </p>
+		<p> - Arreglado un error en la animación de carga del menú inicial del juego. </p>
 		<p> ¿Podrás resolver el mundo del Puzzle? </p>
-		<p> &copy; 2022 Primitech Studios </p>
+		<p> &copy; 2024 Primitech Studios </p>
 	</div>
 	</body>
 </html>
