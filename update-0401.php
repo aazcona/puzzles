@@ -16,7 +16,7 @@ if(!$fgmembersite->CheckLogin())
 		<title>ACTUALIZACIÓN v.0.401</title>
 	</head>
 	<body>
-	<p><a href="cities.php"> Volver a la Selección de Niveles </a></p>
+	<p><a href="news.php"> Volver al Tablón de Noticias </a></p>
 	<div class="main-container">
 		<p> NUEVO BUGFIX: VERSIÓN 0.401 </p>
 		<p> ¿Qué novedades trae? </p>
