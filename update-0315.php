@@ -16,7 +16,7 @@ if(!$fgmembersite->CheckLogin())
 		<title>Noticias</title>
 	</head>
 	<body>
-	<p><a href="news.php"> Volver al Tablón de Noticias </a></p>
+	<p><a href="news.html"> Volver al Tablón de Noticias </a></p>
 	<div class="main-container">
 		<p> ACTUALIZACIÓN (MINI BUGFIX): VERSIÓN 0.3.15 </p>
 		<p> ¿Qué novedades trae? </p>

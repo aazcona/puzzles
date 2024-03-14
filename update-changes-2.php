@@ -16,6 +16,7 @@ if(!$fgmembersite->CheckLogin())
 		<title>Cambios de Balance 18/02/2018</title>
 	</head>
 	<body>
+	<p><a href="news.html"> Volver al Tablón de Noticias </a></p>
 	<div class="main-container">
 		<p> CAMBIOS DE BALANCE (ACTUALIZACIÓN 0.3.0) </p>
 		<p> ¿Qué cambios trae? </p>

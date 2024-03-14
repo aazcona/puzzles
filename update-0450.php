@@ -13,17 +13,19 @@ if(!$fgmembersite->CheckLogin())
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="stylesheet" type="text/css" href="css/common.css">
-		<title>ACTUALIZACIÓN v.0.403</title>
+		<title>ACTUALIZACIÓN v.0.45</title>
 	</head>
 	<body>
+    <p><a href="cities.php"> Volver a la Selección de Niveles </a></p>
     <p><a href="news.html"> Volver al Tablón de Noticias </a></p>
 	<div class="main-container">
-		<p> NUEVO BUGFIX: VERSIÓN 0.403 </p>
+		<p> NUEVA ACTUALIZACIÓN: VERSIÓN 0.45 </p>
 		<p> ¿Qué novedades trae? </p>
-        <p> - Arreglado un error de imagen no encontrada en el menú principal. </p>
-        <p> - Arreglado un error en algunas páginas con información sobre las actualizaciones. </p>
-        <p> - El acceder a la pestaña Perfil ya no dará un error 404. </p>
-        <p> - Cambios menores en varios textos. </p>
+        <p> - Llega el Perfil: a partir de ahora, si tienes una cuenta registrada en World Puzzles, podrás ver las puntuaciones de los niveles que hayas jugado. </p>
+        <p> - Esperad algunas mejores futuras a la pestaña Perfil. </p>
+		<p> - Hemos mejorado la navegabilidad de las páginas más antiguas para que se correspondan con las más recientes. </p>
+		<p> - Hemos arreglado algunos enlaces que provocaban errores 404.
+        <p> - Hemos cambiado los colores de algunos textos para que sean más visibles. </p>
 		<p> ¿Podrás resolver el mundo del Puzzle? </p>
 		<p> &copy; 2024 Primitech Studios </p>
 	</div>

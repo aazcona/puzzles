@@ -31,7 +31,7 @@
 			</ul>
 			<ul class="links-cities">
 				<li class="tutorial-option"><a href="tutorial.php"> Tutorial y Preguntas Frecuentes </a></p>
-				<li class="update-news-option"><a href="update-0403.php"> Tablón de Novedades </a></p>
+				<li class="update-news-option"><a href="update-0450.php"> Tablón de Novedades </a></p>
 			</ul>
 		</div>
 	</body>

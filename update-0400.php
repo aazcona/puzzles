@@ -16,7 +16,7 @@ if(!$fgmembersite->CheckLogin())
 		<title>ACTUALIZACIÓN v.0.40</title>
 	</head>
 	<body>
-	<p><a href="news.php"> Volver al Tablón de Noticias </a></p>
+	<p><a href="news.html"> Volver al Tablón de Noticias </a></p>
 	<div class="main-container">
 		<p> ¡ACTUALIZACIÓN DEL 2º ANIVERSARIO DE WORLD PUZZLES!: VERSIÓN 0.40 </p>
 		<p> ¿Qué novedades trae? </p>
