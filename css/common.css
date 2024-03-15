@@ -12,15 +12,17 @@ body
 {
 	width: 100vw; /* 100% del ancho de la ventana */
 	height: 100vh; /* 100% de la altura de la ventana */
-	position: relative;
+	position: absolute;
 }
 
 /* Centrar los elementos <li> en pantalla */
 ul.cities,
 ul.links-cities 
 {
+	width: 100vw; /* 100% del ancho de la ventana */
+	height: 100vh; /* 100% de la altura de la ventana */
     list-style-type: none;
-    padding: 0;
+    padding-top: 100px;
     text-align: center;
 	font-size: 32px;
 }
@@ -52,7 +54,6 @@ ul.cities li a:hover,
 ul.links-cities li a:hover 
 {
     color: white; /* Cambia el color del texto cuando se pasa el mouse por encima */
-    background-color: lightgray; /* Agrega un fondo cuando se pasa el mouse por encima */
 }
 
 div.credits-selection
@@ -69,10 +70,11 @@ div.credits-selection
 }
 
 p.go-back-link {
+	left: 40%;
     text-align: center;
 	font-size: 48px;
-    position: relative;
-    top: 20px; 
+    position: absolute;
+	top: 25px;
 }
 
 p.go-back-link a:link,
