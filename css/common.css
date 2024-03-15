@@ -1,15 +1,19 @@
 body
 {
-	background-color: #D8D8D8;
+	background-image: url("../images/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	font-size: 18px;
+	height: 90vh;
 }
 
 .main-container
 {
-	width: 70%;
+	width: 100wh;
+	height: 500vh;
 	left: 15%;
 	position: relative;
-	height: 500px;
 }
 
 ul
@@ -25,7 +29,7 @@ ul.cities
 
 ul.cities a:link, a:visited
 {
-	color: rgb(138, 107, 28);
+	color: rgb(244, 193, 65);
 	text-decoration: none;
 }
 
@@ -37,8 +41,21 @@ ul.cities a:hover
 
 ul.links-cities
 {
-	color: orange;
+	color: rgb(140, 100, 25);
 	text-align: center;
+}
+
+div.credits-selection
+{
+	background-position: center;
+	color: rgb(187, 89, 33);
+	text-align: center;
+	font-size: 22px;
+}
+
+.title-credits
+{
+	font-size: 72px;
 }
 
 audio
