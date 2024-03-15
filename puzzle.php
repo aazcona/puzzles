@@ -9,7 +9,7 @@
 	<body onload="init();">
 		<div class="main-container">
 			<canvas id="canvas"></canvas>
-			<div id="points"/>
+			<div id="points">
 		</div>
 	</body>
 </html>

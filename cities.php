@@ -18,7 +18,7 @@
 					<span class="right"><a href='logout.php'>Cerrar Sesión</a></span>
 				</div>
 			<?PHP } ?>
-			<p> <a href="index.html"> Volver al Inicio </a>
+			<p class="go-back-link"> <a href="index.html"> Volver al Inicio </a>
 			<ul class="cities">
 				<li class="ceuta-option"><a href="ceuta.php">|1| Ceuta</a></li>
 				<li class="melilla-option"><a href="melilla.php">|2| Melilla</a></li>

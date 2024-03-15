@@ -10,45 +10,33 @@ body
 
 .main-container
 {
-	width: 100wh;
-	height: 500vh;
-	left: 15%;
+	width: 100vw; /* 100% del ancho de la ventana */
+	height: 100vh; /* 100% de la altura de la ventana */
 	position: relative;
 }
 
-ul
+li.ceuta-option:link, li.cities:visited
 {
-	margin-left: 4%;
-}
-
-ul.cities
-{
-	margin-left: 4%;
-	font-size: 30px;
-}
-
-ul.cities a:link, a:visited
-{
-	color: rgb(244, 193, 65);
+	color: whitesmoke;
 	text-decoration: none;
 }
 
-ul.cities a:hover
+.cities li:hover
 {
 	color: green;
 	text-decoration: none;
 }
 
-ul.links-cities
+.links-cities
 {
-	color: rgb(140, 100, 25);
-	text-align: center;
+	color: rgb(221, 150, 16);
+	text-align: left;
 }
 
 div.credits-selection
 {
 	background-position: center;
-	color: rgb(187, 89, 33);
+	color: rgb(254, 93, 0);
 	text-align: center;
 	font-size: 22px;
 }
@@ -56,6 +44,13 @@ div.credits-selection
 .title-credits
 {
 	font-size: 72px;
+}
+
+.go-back-link
+{
+	text-align: center;
+	color: white;
+	font-size: 24px;
 }
 
 audio
