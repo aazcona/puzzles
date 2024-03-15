@@ -30,8 +30,8 @@
 				<li class="barcelona-option"><a href="barcelona.php">|8| Barcelona</a></li>
 			</ul>
 			<ul class="links-cities">
-				<li class="tutorial-option"><a href="tutorial.html"> Tutorial y Preguntas Frecuentes </a></p>
-				<li class="update-news-option"><a href="update-log/update-0460.html"> Tablón de Novedades </a></p>
+				<li class="tutorial-option"><a href="tutorial.html"> Tutorial y Preguntas Frecuentes </a></li>
+				<li class="update-news-option"><a href="update-log/update-0460.html"> Tablón de Novedades </a></li>
 			</ul>
 		</div>
 	</body>

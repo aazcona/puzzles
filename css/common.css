@@ -15,22 +15,44 @@ body
 	position: relative;
 }
 
-li.ceuta-option:link, li.cities:visited
+/* Centrar los elementos <li> en pantalla */
+ul.cities,
+ul.links-cities 
 {
-	color: whitesmoke;
-	text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+	font-size: 32px;
 }
 
-.cities li:hover
+/* Estilos para los enlaces */
+ul.cities li a,
+ul.links-cities li a 
 {
-	color: green;
-	text-decoration: none;
+    text-decoration: none;
+    color: white; /* Color normal del texto */
 }
 
-.links-cities
+/* Estilos para los enlaces en estado 'link' */
+ul.cities li a:link,
+ul.links-cities li a:link 
 {
-	color: rgb(221, 150, 16);
-	text-align: left;
+    color: green; /* Cambia el color del texto para los enlaces no visitados */
+}
+
+/* Estilos para los enlaces en estado 'visited' */
+ul.cities li a:visited,
+ul.links-cities li a:visited 
+{
+    color: red; /* Cambia el color del texto para los enlaces visitados */
+}
+
+/* Estilos para los enlaces en estado 'hover' */
+ul.cities li a:hover,
+ul.links-cities li a:hover 
+{
+    color: white; /* Cambia el color del texto cuando se pasa el mouse por encima */
+    background-color: lightgray; /* Agrega un fondo cuando se pasa el mouse por encima */
 }
 
 div.credits-selection
@@ -46,11 +68,26 @@ div.credits-selection
 	font-size: 72px;
 }
 
-.go-back-link
+p.go-back-link {
+    text-align: center;
+	font-size: 48px;
+    position: relative;
+    top: 20px; 
+}
+
+p.go-back-link a:link,
+p.go-back-link a:visited
 {
 	text-align: center;
 	color: white;
-	font-size: 24px;
+	font-size: 48px;
+}
+
+p.go-back-link a:hover
+{
+	text-align: center;
+	color: gold;
+	font-size: 48px;
 }
 
 audio
