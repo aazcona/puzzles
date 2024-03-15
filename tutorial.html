@@ -1,13 +1,3 @@
-<?PHP
-require_once("./include/membersite_config.php");
-
-if(!$fgmembersite->CheckLogin())
-{
-    //$fgmembersite->RedirectToURL("login.php");
-    //exit;
-}
-
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
@@ -18,13 +8,13 @@ if(!$fgmembersite->CheckLogin())
 	<body>
 	<p><a href="cities.php"> Volver a la Pantalla de Selección </a></p>
 	<div class="tutorial-question-selection">
-																<p> CÓMO JUGAR </p>  												                          
+		<p> <b> CÓMO JUGAR </b> </p>  												                          
 		<p> - El objetivo del juego es terminar el puzzle en el menor tiempo posible para ganar las 3 estrellas. </p>
 		<p> - Las imágenes se dividirán en más o en menos piezas dependiendo del tipo de nivel. Por ejemplo, Granada es más difícil que Melilla. </p>
 		<p> - Mueve las piezas seleccionándolas y dejándolas en el lugar que creas conveniente. </p>
 		<p> - Con un toque empezará el puzzle. ¡BUENA SUERTE! </p>
 		
-															<p> PREGUNTAS FRECUENTES </p>
+		<p> <b> PREGUNTAS FRECUENTES </b> </p>
 		 <p> - ¿Cómo sé que he terminado el puzzle? </p>
 		 <p> Cuando hayas colocado bien todas las piezas del puzzle, volverá a su formato normal y te indicará los puntos y estrellas que has conseguido. </p>
 		 <p> - He visto un fallo dentro del juego. ¿Qué puedo hacer? </p>

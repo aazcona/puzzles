@@ -25,7 +25,7 @@ ul.cities
 
 ul.cities a:link, a:visited
 {
-	color: goldenrod;
+	color: rgb(138, 107, 28);
 	text-decoration: none;
 }
 

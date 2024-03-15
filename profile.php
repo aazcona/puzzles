@@ -12,7 +12,7 @@
 	<body>
 	<p> <a href="index.html"> Volver al Inicio </a></p>
 		<div class="credits-selection">
-			<p> PERFIL </p>
+			<p> <b> PERFIL </b> </p>
 			<?PHP if ($logged){?>
 				<div id="logged-user">
 					<span class="left">Perfil de <?= $fgmembersite->UserFullName(); ?>.</span>
