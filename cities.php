@@ -31,7 +31,7 @@
 			</ul>
 			<ul class="links-cities">
 				<li class="tutorial-option"><a href="tutorial.html"> Tutorial y Preguntas Frecuentes </a></li>
-				<li class="update-news-option"><a href="update-log/update-0460.html"> Tablón de Novedades </a></li>
+				<li class="update-news-option"><a href="update-log/update-0500.html"> Tablón de Novedades </a></li>
 			</ul>
 		</div>
 	</body>
