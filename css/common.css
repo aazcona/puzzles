@@ -14,6 +14,7 @@ body
 	max-width: 95vw; /* 100% del ancho de la ventana */
 	max-height: 90vh; /* 100% de la altura de la ventana */
 	background-position: center;
+    text-align: center;
 }
 
 /* Centrar los elementos <li> en pantalla */
@@ -132,6 +133,27 @@ p.go-back-link a:hover
 	text-align: center;
 	color: gold;
 	font-size: 48px;
+}
+
+p.settings-title
+{
+    color: rgb(254, 93, 0);
+    font-size: 48px;
+    text-align: center;
+}
+
+ul.settings-box
+{
+    max-width: 90%; /* Anchura máxima del contenedor */
+    max-height: 90vh; /* Altura máxima del contenedor */
+    width: auto; /* Ancho automático para ajustarse al contenido */
+    height: auto; /* Altura automática para ajustarse al contenido */
+    list-style-type: none;
+    text-align: center;
+    font-size: 32px;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 audio
