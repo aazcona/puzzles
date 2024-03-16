@@ -11,9 +11,7 @@
 		<title>Barcelona</title>
 	</head>
 	<body>
-		<ul class="links">
-			<li class="go-to-level-selection-option"><a href="cities.php"> Volver a la Pantalla de Selección </a></p>
-		</ul>
+	<p class="go-back-link"><a href="cities.php"> Volver a la Pantalla de Selección de Niveles </a></p>
 	<div class="main-container">
 		<ul>
 			<li>

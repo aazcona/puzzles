@@ -11,7 +11,7 @@
 		<title>Granada</title>
 	</head>
 	<body>
-	<p><a href="cities.php"> Volver a la Pantalla de Selección </a></p>
+	<p class="go-back-link"><a href="cities.php"> Volver a la Pantalla de Selección de Niveles </a></p>
 	<div class="main-container">
 		<ul>
 			<li>

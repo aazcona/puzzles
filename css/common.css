@@ -6,30 +6,33 @@ body
 	background-position: center;
 	font-size: 18px;
 	height: 90vh;
+	width: 95vw;
 }
 
 .main-container
 {
-	width: 100vw; /* 100% del ancho de la ventana */
-	height: 100vh; /* 100% de la altura de la ventana */
-	position: absolute;
+	max-width: 95vw; /* 100% del ancho de la ventana */
+	max-height: 90vh; /* 100% de la altura de la ventana */
+	background-position: center;
 }
 
 /* Centrar los elementos <li> en pantalla */
-ul.cities,
-ul.links-cities 
+ul.cities
 {
-	width: 100vw; /* 100% del ancho de la ventana */
-	height: 100vh; /* 100% de la altura de la ventana */
+	max-width: 90%; /* Anchura máxima del contenedor */
+    max-height: 90vh; /* Altura máxima del contenedor */
+    width: auto; /* Ancho automático para ajustarse al contenido */
+    height: auto; /* Altura automática para ajustarse al contenido */
     list-style-type: none;
-    padding-top: 100px;
     text-align: center;
-	font-size: 32px;
+    font-size: 32px;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Estilos para los enlaces */
-ul.cities li a,
-ul.links-cities li a 
+ul.cities li a
 {
     text-decoration: none;
     color: white; /* Color normal del texto */
@@ -56,6 +59,44 @@ ul.links-cities li a:hover
     color: white; /* Cambia el color del texto cuando se pasa el mouse por encima */
 }
 
+
+ul.links-cities 
+{
+    max-width: 90%; /* Anchura máxima del contenedor */
+    max-height: 90vh; /* Altura máxima del contenedor */
+    width: auto; /* Ancho automático para ajustarse al contenido */
+    height: auto; /* Altura automática para ajustarse al contenido */
+    list-style-type: none;
+    text-align: center;
+    font-size: 32px;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.links-cities li a 
+{
+	text-decoration: none;
+    color: white; /* Color normal del texto */
+}
+
+ul.links-cities li a:link 
+{
+    color: green; /* Cambia el color del texto para los enlaces no visitados */
+}
+
+/* Estilos para los enlaces en estado 'visited' */
+ul.links-cities li a:visited 
+{
+    color: red; /* Cambia el color del texto para los enlaces visitados */
+}
+
+/* Estilos para los enlaces en estado 'hover' */
+ul.links-cities li a:hover 
+{
+    color: white; /* Cambia el color del texto cuando se pasa el mouse por encima */
+}
+
 div.credits-selection
 {
 	background-position: center;
@@ -66,15 +107,16 @@ div.credits-selection
 
 .title-credits
 {
-	font-size: 72px;
+	font-size: 40px;
 }
 
-p.go-back-link {
-	left: 40%;
+p.go-back-link 
+{
+	width: auto; /* Ancho automático para ajustarse al contenido */
+    height: auto; /* Altura automática para ajustarse al contenido */
     text-align: center;
 	font-size: 48px;
-    position: absolute;
-	top: 25px;
+	background-position: center;
 }
 
 p.go-back-link a:link,
