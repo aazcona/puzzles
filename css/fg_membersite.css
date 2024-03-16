@@ -80,12 +80,6 @@ border-radius: 10px;
   font-weight:bold;
 }
 
-#fg_membersite .container
-{
-   margin-top:8px;
-   margin-bottom: 10px;
-}
-
 #fg_membersite .error
 {
    font-family: Verdana, Arial, sans-serif; 

@@ -7,6 +7,7 @@ body
 	font-size: 18px;
 	height: 90vh;
 	width: 95vw;
+    margin: 0px;
 }
 
 .main-container
@@ -168,6 +169,62 @@ div.tutorial-question
     background-position: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+div#fg_membersite.container
+{
+   max-width: 90%; /* Anchura máxima del contenedor */
+   max-height: 90vh; /* Altura máxima del contenedor */
+   width: auto; /* Ancho automático para ajustarse al contenido */
+   height: auto; /* Altura automática para ajustarse al contenido */
+   list-style-type: none;
+   text-align: center;
+   font-size: 26px;
+   margin-left: auto;
+}
+
+div#logged-user
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: left;
+}
+
+div#logged-profile-user
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+p.profile-title
+{
+    text-align: center;
+    font-size: 24px;
+    color: orangered;
+}
+
+.profile-box-left,
+.profile-box-right {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+
+.profile-box-left {
+    float: left;
+    border-right: 1px solid #ccc;
+}
+
+.profile-box-right {
+    float: right;
 }
 
 audio

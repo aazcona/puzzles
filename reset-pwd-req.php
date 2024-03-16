@@ -22,9 +22,9 @@ if(isset($_POST['submitted']))
 	<script type='text/javascript' src='js/gen_validatorv31.js'></script>
 </head>
 <body>
-	<p><a href="settings.html"> Volver a la Pantalla de Configuración </a></p>
+	<p class = "go-back-link"><a href="settings.html"> Volver a la Pantalla de Configuración </a></p>
 	<!-- Form Code Start -->
-	<div id='fg_membersite' class='main-container'>
+	<div id='fg_membersite' class='container'>
 		<form id='resetreq' action='<?php echo $fgmembersite->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
 		<fieldset >
 		<legend>Cambiar Contraseña</legend>

@@ -10,16 +10,15 @@
 		<title>Perfil</title>
 	</head>
 	<body>
-	<p> <a href="index.html"> Volver al Inicio </a></p>
-		<div class="credits-selection">
-			<p> <b> PERFIL </b> </p>
-			<?PHP if ($logged){?>
-				<div id="logged-user">
-					<span class="left">Perfil de <?= $fgmembersite->UserFullName(); ?>.</span>
+	<p class ="go-back-link"> <a href="index.html"> Volver al Inicio </a></p>
+		<?PHP if ($logged){?>
+				<div id="logged-profile-user">
+					<span class="center">Perfil de <?= $fgmembersite->UserFullName(); ?>.</span>
 				</div>
 			<?php } else { ?>
         		<p> <b> ¡Regístrate en World Puzzles para guardar y ver aquí las puntuaciones de tu niveles! </b> </p>
-    		<?php } ?>
+    	<?php } ?>
+		<div class="profile-box-left">
 			<?PHP if ($logged){?>
 			<p> <b> |1| Ceuta </b> </p>
 				<p>La Casa de los Dragones. 
@@ -72,7 +71,11 @@
 				<p>Plaza de la Artillería.
 					<?PHP if ($logged){?>
 						Puntos: <?= $fgmembersite->readPoints(12); ?></p>
-					<?PHP } ?></p>	
+					<?PHP } ?></p>
+				<?php } ?>	
+		</div>
+		<div class="profile-box-right">
+			<?PHP if ($logged){?>
 			<p> <b> |5| Granada </b> </p>
 				<p>Iglesia de Santo Domingo. 
 					<?PHP if ($logged){?>

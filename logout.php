@@ -16,12 +16,8 @@ $fgmembersite->LogOut();
 
 <div class="main-container">
 	<h2>Has cerrado la Sesión</h2>
-	<p>
-		<a href='login.php'>Volver a Iniciar Sesión</a>
-	</p>
-	<p>
-		<a href='cities.php'>Seguir como Invitado</a>
-	</p>
+	<p class ="go-back-link"> <a href='login.php'> Volver a Iniciar Sesión </a> </p>
+	<p class ="go-back-link"> <a href='cities.php'> Seguir como Invitado </a> </p>
 </div>
 </body>
 </html>
