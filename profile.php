@@ -10,13 +10,13 @@
 		<title>Perfil</title>
 	</head>
 	<body>
-	<p class ="go-back-link"> <a href="index.html"> Volver al Inicio </a></p>
+	<p class="go-back-link"> <a href="index.html"> Volver al Inicio </a></p>
 		<?PHP if ($logged){?>
 				<div id="logged-profile-user">
 					<span class="center">Perfil de <?= $fgmembersite->UserFullName(); ?>.</span>
 				</div>
 			<?php } else { ?>
-        		<p> <b> ¡Regístrate en World Puzzles para guardar y ver aquí las puntuaciones de tu niveles! </b> </p>
+        		<p class="profile-title"> <b> ¡Regístrate en World Puzzles para guardar y ver aquí las puntuaciones de tu niveles! </b> </p>
     	<?php } ?>
 		<div class="profile-box-left">
 			<?PHP if ($logged){?>
